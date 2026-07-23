@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Espace Admin — INSP</title>
+<link rel="icon" href="https://insp.bf/wp-content/uploads/2020/07/cropped-logonew.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: { extend: {
+      colors: {
+        teal: { 950:'#08251C', 900:'#0B3D2E', 800:'#0F4F3C', 700:'#0F6E4F', 600:'#158C63', 100:'#DCEFE6', 50:'#F1F8F4' },
+        gold: { 600:'#C4880A', 500:'#E3A008', 400:'#F2B93C', 100:'#FBEACB' },
+        sand: { 50:'#FAF7F0' },
+        alert:{ 700:'#B3341E', 100:'#F7E1DC' },
+        ink: { 900:'#14201B', 700:'#33413A', 500:'#5B6963' }
+      },
+      fontFamily: {
+        display: ['"Space Grotesk"','sans-serif'],
+        body: ['Inter','sans-serif'],
+        mono: ['"JetBrains Mono"','monospace']
+      }
+    }}
+  }
+</script>
+</head>
+<body class="bg-sand-50 text-ink-900 font-body antialiased min-h-screen">
+
+<!-- LOGIN SCREEN -->
+<div id="login-screen" class="min-h-screen flex items-center justify-center px-4">
+  <div class="w-full max-w-sm bg-white border border-teal-100 rounded-2xl shadow-lg p-8">
+    <div class="flex items-center gap-3 mb-6">
+      <img src="https://insp.bf/wp-content/uploads/2020/07/cropped-logonew.jpg" class="h-10 w-10 rounded-full object-cover ring-2 ring-teal-100" alt="Logo INSP">
+      <div>
+        <p class="font-display font-bold text-teal-900">Espace Admin</p>
+        <p class="text-xs text-ink-500">INSP Burkina Faso</p>
+      </div>
+    </div>
+    <label class="block text-sm font-medium text-ink-700 mb-1.5">Mot de passe</label>
+    <input id="password-input" type="password" class="w-full rounded-lg border border-teal-100 px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-teal-600 mb-2" placeholder="••••••••">
+    <p id="login-error" class="text-alert-700 text-xs mb-3 hidden">Mot de passe incorrect.</p>
+    <button id="login-btn" class="w-full bg-teal-700 hover:bg-teal-800 text-white font-semibold text-sm rounded-lg py-2.5 transition">Se connecter</button>
+    <p class="text-[11px] text-ink-500 mt-4 leading-relaxed">Accès réservé au service Communication de l'INSP. En cas d'oubli du mot de passe, contactez le service informatique.</p>
+    <a href="index.html" class="block text-center text-xs font-mono text-teal-700 mt-4 hover:text-gold-600">← Retour au site</a>
+  </div>
+</div>
+
+<!-- ADMIN APP -->
+<div id="admin-app" class="hidden">
+  <header class="bg-teal-950 text-white">
+    <div class="max-w-5xl mx-auto px-4 lg:px-6 h-16 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <img src="https://insp.bf/wp-content/uploads/2020/07/cropped-logonew.jpg" class="h-9 w-9 rounded-full object-cover ring-2 ring-teal-800" alt="">
+        <span class="font-display font-bold">Espace Admin — INSP</span>
+      </div>
+      <div class="flex items-center gap-3">
+        <a href="index.html" class="text-sm font-mono text-teal-100/80 hover:text-gold-400">Voir le site</a>
+        <button id="logout-btn" class="text-sm font-mono text-teal-100/80 hover:text-gold-400">Déconnexion</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-4 lg:px-6 py-10">
+
+    <div id="save-status" class="hidden mb-6 rounded-lg px-4 py-3 text-sm font-medium"></div>
+
+    <!-- ANNOUNCEMENT -->
+    <section class="bg-white border border-teal-100 rounded-xl p-6 mb-8">
+      <h2 class="font-display font-bold text-lg text-teal-950 mb-1">Bandeau d'annonce (page d'accueil)</h2>
+      <p class="text-xs text-ink-500 mb-4">Ce message s'affiche en évidence en haut de la page d'accueil. Laissez vide pour ne rien afficher.</p>
+      <textarea id="announcement-input" rows="2" class="w-full rounded-lg border border-teal-100 px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-teal-600" placeholder="Ex : Le siège de l'INSP sera fermé le 15 août pour la fête nationale."></textarea>
+    </section>
+
+    <!-- NEWS / ANNOUNCEMENTS LIST -->
+    <section class="bg-white border border-teal-100 rounded-xl p-6 mb-8">
+      <div class="flex items-center justify-between mb-1">
+        <h2 class="font-display font-bold text-lg text-teal-950">Actualités &amp; annonces</h2>
+        <button id="add-news-btn" class="text-sm font-semibold bg-teal-700 hover:bg-teal-800 text-white rounded-lg px-4 py-2 transition">+ Ajouter</button>
+      </div>
+      <p class="text-xs text-ink-500 mb-4">Ces éléments apparaissent sur la page d'accueil et dans « Actu/Presse ▸ Évènements-News ».</p>
+      <div id="news-list" class="space-y-3"></div>
+    </section>
+
+    <!-- SAVE -->
+    <section class="bg-white border border-teal-100 rounded-xl p-6 flex flex-col sm:flex-row gap-3 sm:items-center sm:justify-between">
+      <div>
+        <h2 class="font-display font-bold text-lg text-teal-950 mb-1">Enregistrer les modifications</h2>
+        <p class="text-xs text-ink-500 max-w-md">Les modifications sont d'abord enregistrées pour cet appareil/navigateur. Pour les publier sur le site pour tous les visiteurs, téléchargez le fichier et remplacez <code class="font-mono">siteData.json</code> sur votre hébergement (ou activez <code class="font-mono">save.php</code>, voir README).</p>
+      </div>
+      <div class="flex gap-2 shrink-0">
+        <button id="save-local-btn" class="bg-teal-700 hover:bg-teal-800 text-white font-semibold text-sm rounded-lg px-5 py-2.5 transition">Enregistrer</button>
+        <button id="download-btn" class="border border-teal-700 text-teal-700 hover:bg-teal-50 font-semibold text-sm rounded-lg px-5 py-2.5 transition">Télécharger le JSON</button>
+      </div>
+    </section>
+  </main>
+</div>
+
+<!-- NEWS ITEM MODAL -->
+<div id="news-modal" class="fixed inset-0 z-50 hidden items-center justify-center px-4">
+  <div class="absolute inset-0 bg-ink-900/50" id="modal-backdrop"></div>
+  <div class="relative bg-white rounded-2xl shadow-xl w-full max-w-lg p-6 max-h-[90vh] overflow-y-auto">
+    <h3 id="modal-title" class="font-display font-bold text-lg text-teal-950 mb-4">Nouvelle actualité</h3>
+    <div class="space-y-3">
+      <div>
+        <label class="block text-xs font-medium text-ink-700 mb-1">Titre *</label>
+        <input id="f-title" class="w-full rounded-lg border border-teal-100 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-teal-600">
+      </div>
+      <div>
+        <label class="block text-xs font-medium text-ink-700 mb-1">Catégorie</label>
+        <input id="f-category" class="w-full rounded-lg border border-teal-100 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-teal-600" placeholder="Ex : Actu_Evènement">
+      </div>
+      <div>
+        <label class="block text-xs font-medium text-ink-700 mb-1">Extrait / résumé</label>
+        <textarea id="f-excerpt" rows="3" class="w-full rounded-lg border border-teal-100 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-teal-600"></textarea>
+      </div>
+      <div>
+        <label class="block text-xs font-medium text-ink-700 mb-1">URL de l'image (assets/images/…)</label>
+        <input id="f-image" class="w-full rounded-lg border border-teal-100 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-teal-600" placeholder="https://insp.bf/wp-content/uploads/... ou assets/images/mon-image.jpg">
+      </div>
+      <div>
+        <label class="block text-xs font-medium text-ink-700 mb-1">Lien « Lire la suite »</label>
+        <input id="f-url" class="w-full rounded-lg border border-teal-100 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-teal-600" placeholder="https://insp.bf/...">
+      </div>
+    </div>
+    <div class="flex justify-end gap-2 mt-6">
+      <button id="modal-cancel" class="px-4 py-2 text-sm font-semibold text-ink-700 hover:bg-sand-100 rounded-lg">Annuler</button>
+      <button id="modal-save" class="px-4 py-2 text-sm font-semibold bg-teal-700 hover:bg-teal-800 text-white rounded-lg">Enregistrer</button>
+    </div>
+  </div>
+</div>
+
+<script>
+/* ================= AUTH =================
+   Mot de passe par défaut : INSP2026!
+   Pour le changer : ouvrez la console du navigateur sur cette page et tapez
+   await crypto.subtle.digest('SHA-256', new TextEncoder().encode('NouveauMotDePasse'))
+     puis convertissez le résultat en hexadécimal et remplacez PASSWORD_HASH ci-dessous.
+   Voir README.md pour la marche à suivre détaillée. */
+const PASSWORD_HASH = 'ce2cad8f2f23f4b7255db558028e5b9649241c5c9fe91ec48c66740f6acf305f'; // sha256("INSP2026!") — see README to change
+
+async function sha256(text){
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(text));
+  return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2,'0')).join('');
+}
+
+const SESSION_KEY = 'insp_admin_session';
+
+async function tryLogin(){
+  const val = document.getElementById('password-input').value;
+  const hash = await sha256(val);
+  if(hash === PASSWORD_HASH){
+    sessionStorage.setItem(SESSION_KEY, '1');
+    showAdmin();
+  } else {
+    document.getElementById('login-error').classList.remove('hidden');
+  }
+}
+document.getElementById('login-btn').addEventListener('click', tryLogin);
+document.getElementById('password-input').addEventListener('keydown', e => { if(e.key === 'Enter') tryLogin(); });
+document.getElementById('logout-btn').addEventListener('click', () => { sessionStorage.removeItem(SESSION_KEY); location.reload(); });
+
+function showAdmin(){
+  document.getElementById('login-screen').classList.add('hidden');
+  document.getElementById('admin-app').classList.remove('hidden');
+  loadAdminData();
+}
+
+/* ================= DATA ================= */
+
+let BASE = null;   // original siteData.json
+let NEWS = [];      // working copy
+let editingId = null;
+
+async function loadAdminData(){
+  const res = await fetch('siteData.json', { cache:'no-store' });
+  BASE = await res.json();
+  const ov = JSON.parse(localStorage.getItem('insp_admin_overrides') || 'null');
+  if(ov && ov.site) Object.assign(BASE.site, ov.site);
+  NEWS = (ov && ov.news) ? ov.news : BASE.news;
+  document.getElementById('announcement-input').value = BASE.site.announcement || '';
+  renderNewsList();
+}
+
+function esc(s){ return (s||'').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+
+function renderNewsList(){
+  const list = document.getElementById('news-list');
+  if(!NEWS.length){
+    list.innerHTML = `<p class="text-sm text-ink-500 py-6 text-center">Aucune actualité pour le moment.</p>`;
+    return;
+  }
+  list.innerHTML = NEWS.map(n => `
+    <div class="flex items-start gap-3 border border-teal-100 rounded-lg p-3">
+      ${n.image ? `<img src="${esc(n.image)}" class="w-16 h-16 rounded object-cover shrink-0 bg-teal-50" alt="">` : `<div class="w-16 h-16 rounded bg-teal-50 shrink-0"></div>`}
+      <div class="flex-1 min-w-0">
+        <p class="font-semibold text-sm text-teal-950 truncate">${esc(n.title)}</p>
+        <p class="text-xs text-ink-500 line-clamp-2">${esc(n.excerpt || '')}</p>
+      </div>
+      <div class="flex gap-1 shrink-0">
+        <button data-id="${n.id}" class="edit-btn text-xs font-mono text-teal-700 hover:text-gold-600 px-2 py-1">Modifier</button>
+        <button data-id="${n.id}" class="delete-btn text-xs font-mono text-alert-700 hover:text-red-800 px-2 py-1">Supprimer</button>
+      </div>
+    </div>`).join('');
+
+  list.querySelectorAll('.edit-btn').forEach(b => b.addEventListener('click', () => openModal(b.dataset.id)));
+  list.querySelectorAll('.delete-btn').forEach(b => b.addEventListener('click', () => {
+    if(confirm('Supprimer cette actualité ?')){
+      NEWS = NEWS.filter(n => n.id !== b.dataset.id);
+      renderNewsList();
+    }
+  }));
+}
+
+/* ================= MODAL ================= */
+
+function openModal(id){
+  editingId = id || null;
+  const n = id ? NEWS.find(x => x.id === id) : null;
+  document.getElementById('modal-title').textContent = id ? 'Modifier l\u2019actualité' : 'Nouvelle actualité';
+  document.getElementById('f-title').value = n ? n.title : '';
+  document.getElementById('f-category').value = n ? (n.category || '') : '';
+  document.getElementById('f-excerpt').value = n ? (n.excerpt || '') : '';
+  document.getElementById('f-image').value = n ? (n.image || '') : '';
+  document.getElementById('f-url').value = n ? (n.url || '') : '';
+  document.getElementById('news-modal').classList.remove('hidden');
+  document.getElementById('news-modal').classList.add('flex');
+}
+function closeModal(){
+  document.getElementById('news-modal').classList.add('hidden');
+  document.getElementById('news-modal').classList.remove('flex');
+}
+document.getElementById('add-news-btn').addEventListener('click', () => openModal(null));
+document.getElementById('modal-cancel').addEventListener('click', closeModal);
+document.getElementById('modal-backdrop').addEventListener('click', closeModal);
+
+document.getElementById('modal-save').addEventListener('click', () => {
+  const title = document.getElementById('f-title').value.trim();
+  if(!title){ alert('Le titre est obligatoire.'); return; }
+  const payload = {
+    title,
+    category: document.getElementById('f-category').value.trim(),
+    excerpt: document.getElementById('f-excerpt').value.trim(),
+    image: document.getElementById('f-image').value.trim(),
+    url: document.getElementById('f-url').value.trim() || '#'
+  };
+  if(editingId){
+    const idx = NEWS.findIndex(n => n.id === editingId);
+    NEWS[idx] = { ...NEWS[idx], ...payload };
+  } else {
+    NEWS.unshift({ id: 'news-' + Date.now(), ...payload });
+  }
+  closeModal();
+  renderNewsList();
+});
+
+/* ================= SAVE ================= */
+
+function currentOverride(){
+  return {
+    site: { announcement: document.getElementById('announcement-input').value.trim() },
+    news: NEWS
+  };
+}
+
+function showStatus(msg, ok){
+  const el = document.getElementById('save-status');
+  el.textContent = msg;
+  el.className = 'mb-6 rounded-lg px-4 py-3 text-sm font-medium ' + (ok ? 'bg-teal-100 text-teal-900' : 'bg-alert-100 text-alert-700');
+  el.classList.remove('hidden');
+}
+
+async function saveAll(){
+  const override = currentOverride();
+  localStorage.setItem('insp_admin_overrides', JSON.stringify(override));
+
+  // try optional server-side save.php endpoint
+  try{
+    const merged = { ...BASE, site: { ...BASE.site, ...override.site }, news: override.news };
+    const res = await fetch('save.php', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(merged)
+    });
+    if(res.ok){
+      showStatus('✅ Enregistré sur le serveur — visible par tous les visiteurs.', true);
+      return;
+    }
+    throw new Error('no server endpoint');
+  }catch(e){
+    showStatus('💾 Enregistré pour ce navigateur. Pour publier sur le site, cliquez sur « Télécharger le JSON » et remplacez siteData.json sur votre hébergement (voir README.md).', true);
+  }
+}
+document.getElementById('save-local-btn').addEventListener('click', saveAll);
+
+document.getElementById('download-btn').addEventListener('click', () => {
+  const override = currentOverride();
+  const merged = { ...BASE, site: { ...BASE.site, ...override.site }, news: override.news };
+  const blob = new Blob([JSON.stringify(merged, null, 2)], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'siteData.json';
+  a.click();
+});
+
+/* ================= INIT ================= */
+
+if(sessionStorage.getItem(SESSION_KEY) === '1'){
+  showAdmin();
+}
+</script>
+</body>
+</html>
