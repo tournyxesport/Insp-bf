@@ -1,0 +1,1493 @@
+{
+  "site": {
+    "name": "Institut National de Santé Publique du Burkina Faso",
+    "shortName": "INSP",
+    "baseUrl": "https://insp.bf",
+    "logo": "https://insp.bf/wp-content/uploads/2020/07/cropped-logonew.jpg",
+    "language": "fr",
+    "phone": "+226 01 90 58 58",
+    "email": "infos@insp.bf",
+    "announcement": "",
+    "topLinks": [
+      {
+        "label": "INTRANET",
+        "href": "https://insp.bf/intranet/"
+      },
+      {
+        "label": "BIBLIOTHEQUE VIRTUELLE",
+        "href": "https://insp.bf/bibliotheque-virtuelle/"
+      },
+      {
+        "label": "DICAMES",
+        "href": "https://dicames.online/"
+      },
+      {
+        "label": "PAASME-UE",
+        "href": "https://insp.bf/paasme-ue/"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Accueil",
+      "slug": "accueil",
+      "href": "https://insp.bf",
+      "type": "home"
+    },
+    {
+      "label": "Presentation",
+      "slug": "category/presentation",
+      "href": "https://insp.bf/category/presentation/",
+      "children": [
+        {
+          "label": "Mot du Directeur Général",
+          "slug": "mot-du-directeur-general-dr-seydou-barro",
+          "href": "https://insp.bf/mot-du-directeur-general-de-linsp/",
+          "type": "page"
+        },
+        {
+          "label": "Missions et Objectifs",
+          "slug": "act-14655",
+          "href": "https://insp.bf/act-14655/",
+          "children": [
+            {
+              "label": "Qui sommes nous ?",
+              "slug": "presentation/271-2",
+              "href": "https://insp.bf/presentation/271-2/",
+              "type": "page"
+            },
+            {
+              "label": "Que faisons nous ?",
+              "slug": "presentation/que-faisons-nous",
+              "href": "https://insp.bf/presentation/que-faisons-nous/",
+              "type": "page"
+            },
+            {
+              "label": "Vision",
+              "slug": "presentation/notre-vision",
+              "href": "https://insp.bf/presentation/notre-vision/",
+              "type": "page"
+            },
+            {
+              "label": "Missions",
+              "slug": "presentation/missions",
+              "href": "https://insp.bf/presentation/missions/",
+              "type": "page"
+            }
+          ],
+          "type": "index"
+        },
+        {
+          "label": "Organigramme",
+          "slug": "presentation/historique",
+          "href": "https://insp.bf/presentation/historique/",
+          "type": "page"
+        },
+        {
+          "label": "Directions Techniques",
+          "slug": "directions-techniques",
+          "href": "https://insp.bf/directions-techniques/",
+          "type": "page"
+        },
+        {
+          "label": "Organisation",
+          "slug": "presentation/organisation",
+          "href": "https://insp.bf/presentation/organisation/",
+          "type": "page"
+        },
+        {
+          "label": "BIOEXPRESS",
+          "slug": "category/bioexpress",
+          "href": "https://insp.bf/category/bioexpress/",
+          "children": [
+            {
+              "label": "Administration/Chercheurs",
+              "slug": "administration",
+              "href": "https://insp.bf/administration/",
+              "type": "page"
+            },
+            {
+              "label": "Chercheurs",
+              "slug": "bioexpress",
+              "href": "https://insp.bf/bioexpress/",
+              "type": "page"
+            }
+          ],
+          "type": "index"
+        }
+      ],
+      "type": "index"
+    },
+    {
+      "label": "Recherche",
+      "slug": "category/nos_structures_de_recherche",
+      "href": "https://insp.bf/category/nos_structures_de_recherche/",
+      "children": [
+        {
+          "label": "Centres de Recherche",
+          "slug": "centres-de-recherche",
+          "href": "https://insp.bf/centres-de-recherche/",
+          "children": [
+            {
+              "label": "Centre MURAZ",
+              "slug": "centres-de-recherches/centre-muraz",
+              "href": "https://insp.bf/centres-de-recherches/centre-muraz/",
+              "type": "page"
+            },
+            {
+              "label": "CRSN",
+              "slug": "nos-structures-metiers/crsn",
+              "href": "https://insp.bf/nos-structures-metiers/crsn/",
+              "type": "page"
+            },
+            {
+              "label": "CNRFP",
+              "slug": "nos-structures-metiers/cnrfp",
+              "href": "https://insp.bf/nos-structures-metiers/cnrfp/",
+              "type": "page"
+            }
+          ],
+          "type": "page"
+        },
+        {
+          "label": "Programme de Recherche",
+          "slug": "projets",
+          "href": "https://insp.bf/projets/",
+          "type": "page"
+        },
+        {
+          "label": "Plateformes d’appui",
+          "slug": "plateformes-dappui-recherche-et-sante-publique",
+          "href": "https://insp.bf/plateformes-dappui-recherche-et-sante-publique/",
+          "type": "page"
+        }
+      ],
+      "type": "index"
+    },
+    {
+      "label": "Veille Sanitaire",
+      "slug": "poles-de-sante-publique",
+      "href": "https://insp.bf/poles-de-sante-publique/",
+      "children": [
+        {
+          "label": "CORUS",
+          "slug": "nos-structures-metiers/corus",
+          "href": "https://insp.bf/nos-structures-metiers/corus/",
+          "type": "page"
+        },
+        {
+          "label": "ONSP",
+          "slug": "nos-structures-metiers/onsp",
+          "href": "https://insp.bf/nos-structures-metiers/onsp/",
+          "type": "page"
+        },
+        {
+          "label": "LCR",
+          "slug": "nos-structures-metiers/lcr",
+          "href": "https://insp.bf/nos-structures-metiers/lcr/",
+          "type": "page"
+        }
+      ],
+      "type": "index"
+    },
+    {
+      "label": "Formation",
+      "slug": "formation-continue",
+      "href": "https://insp.bf/formation-continue/",
+      "children": [
+        {
+          "label": "Webinar sur la santé publique",
+          "slug": "webinar-sur-la-sante-publique",
+          "href": "https://insp.bf/webinar-sur-la-sante-publique/",
+          "type": "page"
+        }
+      ],
+      "type": "index"
+    },
+    {
+      "label": "Actu/Presse",
+      "slug": "category/presse",
+      "href": "https://insp.bf/category/presse/",
+      "children": [
+        {
+          "label": "Evènements-News",
+          "slug": "page-blog",
+          "href": "https://insp.bf/page-blog/",
+          "type": "news-index"
+        },
+        {
+          "label": "Bulletin d’info",
+          "slug": "depliants-flyers-prospectus",
+          "href": "https://insp.bf/depliants-flyers-prospectus/",
+          "type": "page"
+        },
+        {
+          "label": "Photos/Videos",
+          "slug": "phototheque",
+          "href": "https://insp.bf/phototheque/",
+          "type": "page"
+        },
+        {
+          "label": "Newsletters",
+          "slug": "newsletter-2",
+          "href": "https://insp.bf/newsletter-2/",
+          "type": "page"
+        },
+        {
+          "label": "PPM",
+          "slug": "ppm",
+          "href": "https://insp.bf/ppm/",
+          "type": "page"
+        }
+      ],
+      "type": "index"
+    },
+    {
+      "label": "Ressources",
+      "slug": "category/ressources",
+      "href": "https://insp.bf/category/ressources/",
+      "children": [
+        {
+          "label": "Centre de documentation",
+          "slug": "centre-de-documentation",
+          "href": "https://insp.bf/centre-de-documentation/",
+          "type": "page"
+        },
+        {
+          "label": "Vidéo en ligne",
+          "slug": "phototheque-videotheque",
+          "href": "https://insp.bf/phototheque-videotheque/",
+          "type": "page"
+        },
+        {
+          "label": "Dépôt Institutionnel",
+          "slug": "depot-institutionnel",
+          "href": "https://insp.bf/depot-institutionnel/",
+          "children": [
+            {
+              "label": "Rapports",
+              "slug": "nouvelles-publications",
+              "href": "https://insp.bf/nouvelles-publications/",
+              "type": "page"
+            },
+            {
+              "label": "Plans Stratégiques",
+              "slug": "plan-strategique-2",
+              "href": "https://insp.bf/plan-strategique-2/",
+              "type": "page"
+            },
+            {
+              "label": "Articles scientifiques & Notes de Politiques",
+              "slug": "notes-de-politiques",
+              "href": "https://insp.bf/notes-de-politiques/",
+              "type": "page"
+            },
+            {
+              "label": "Mémoires et Thèses",
+              "slug": "memoires-et-theses",
+              "href": "https://insp.bf/memoires-et-theses/",
+              "type": "page"
+            },
+            {
+              "label": "Hépatites Virales",
+              "slug": "maladies-infectieuses/hepatites-virales",
+              "href": "https://insp.bf/maladies-infectieuses/hepatites-virales/",
+              "type": "page"
+            }
+          ],
+          "type": "page"
+        },
+        {
+          "label": "Bulletins Epidemiologiques du Burkina Faso",
+          "slug": "bulletins-epidemiologique-du-burkina-faso",
+          "href": "https://insp.bf/bulletins-epidemiologique-du-burkina-faso/",
+          "type": "page"
+        },
+        {
+          "label": "Publications Scientifiques",
+          "slug": "publications-scientifiques-1",
+          "href": "https://insp.bf/publications-scientifiques-1/",
+          "type": "page"
+        },
+        {
+          "label": "Epidémies",
+          "slug": "epidemies",
+          "href": "https://insp.bf/epidemies/",
+          "children": [
+            {
+              "label": "COVID-19",
+              "slug": "covid-19",
+              "href": "https://insp.bf/covid-19/",
+              "type": "page"
+            },
+            {
+              "label": "Messages COVID-19",
+              "slug": "messages-covid-19",
+              "href": "https://insp.bf/messages-covid-19/",
+              "type": "page"
+            },
+            {
+              "label": "ICTERE FEBRILE",
+              "slug": "ictere-febrile",
+              "href": "https://insp.bf/ictere-febrile/",
+              "type": "page"
+            },
+            {
+              "label": "VARIOLE DU SINGE",
+              "slug": "monkeypox-ou-variole-du-singe",
+              "href": "https://insp.bf/monkeypox-ou-variole-du-singe/",
+              "type": "page"
+            }
+          ],
+          "type": "page"
+        }
+      ],
+      "type": "index"
+    }
+  ],
+  "pages": {
+    "plateformes-dappui-recherche-et-sante-publique": {
+      "slug": "plateformes-dappui-recherche-et-sante-publique",
+      "title": "Plateformes d’appui à la Recherche et la Santé Publique",
+      "date": "2019-10-29T16:09:05+01:00",
+      "excerpt": "Trois (03) plateformes  sont utilisés dans les Directions Techniques  de I’INSP pour offrir leurs services de laboratoire et de gestion des données. Ce sont : les Laboratoires de Bi…",
+      "heroImage": "https://i0.wp.com/insp.bf/wp-content/uploads/2020/07/cropped-logonew.jpg?fit=512%2C512&ssl=1",
+      "content": "<p>Trois (03) plateformes  sont utilisés dans les Directions Techniques  de I’INSP pour offrir leurs services de laboratoire et de gestion des données. Ce sont :</p>\n<ul><li>les Laboratoires de Biologie clinique;</li><li>les laboratoires  de recherche;</li><li>et les centres de calcul.</li></ul>\n<p><strong>Laboratoires de Biologie Clinique</strong></p>\n<p>C’est une plateforme  des <strong>laboratoires  de biologie  Clinique</strong>  qui fonctionnent  au sein des 3 centres  de recherche  (MURAZ, CRSN, CNRFP).</p>\n<p><strong>Le laboratoire de recherche</strong></p>\n<p>C’est une plateforme  des laboratoires  spécialises de recherche  organisés  en section qui fonctionnent  au sein des 3 centres de recherche  (MURAZ,  CRSN, CNRFP). Ces laboratoires offrent des services au profit des projets de recherche, pour l’<em>accueil des stagiaires nationaux et internationaux </em> et des <em>formations</em>. </p>\n<p>Ce sont des <em> <strong>laboratoires de biologie et de microbiologie</strong></em>, <strong>de système d’information géographique</strong> (antenne météorologique), <strong>d’insectarium</strong>, de <strong>cohorte thérapeutique </strong>etc. </p>\n<p><strong>Le centre de calcul</strong></p>\n<p>C’est une plateforme  de gestion des données  dans chaque  centre de recherche  qui offre des services achetés par les projets et expertises  internes et externes à I’INSP.</p>",
+      "images": [],
+      "documents": [],
+      "videos": [],
+      "sourceFile": "Plateformes d&rsquo;appui à la Recherche et la Santé Publique &#8211; INSTITUT NATIONAL DE SANTE PUBLIQUE  du BURKINA FASO.html"
+    },
+    "maladies-infectieuses/hepatites-virales": {
+      "slug": "maladies-infectieuses/hepatites-virales",
+      "title": "Hépatites Virales",
+      "date": null,
+      "excerpt": "Plan_strategique_hépatites virales 2017_2021 BFTélécharger Normes et protocoles de Prise en charge HV au BF Vf 2019Télécharger",
+      "heroImage": "https://i0.wp.com/insp.bf/wp-content/uploads/2023/06/Hepatites-virales.jpg?fit=1200%2C412&ssl=1",
+      "content": "<a href=\"https://insp.bf/wp-content/uploads/2023/06/Plan_strategique_hépatites-virales-2017_2021-BF.pdf\"><strong>Plan_strategique_hépatites virales 2017_2021 BF</strong></a><a href=\"https://insp.bf/wp-content/uploads/2023/06/Plan_strategique_hépatites-virales-2017_2021-BF.pdf\">Télécharger</a>\n<a href=\"https://insp.bf/wp-content/uploads/2023/06/Normes-et-protocoles-de-Prise-en-charge-HV-au-BF-Vf-2019.pdf\"><strong>Normes et protocoles de Prise en charge HV au BF Vf 2019</strong></a><a href=\"https://insp.bf/wp-content/uploads/2023/06/Normes-et-protocoles-de-Prise-en-charge-HV-au-BF-Vf-2019.pdf\">Télécharger</a>",
+      "images": [],
+      "documents": [
+        {
+          "url": "https://insp.bf/wp-content/uploads/2023/06/Plan_strategique_hépatites-virales-2017_2021-BF.pdf",
+          "label": "Plan_strategique_hépatites virales 2017_2021 BF"
+        },
+        {
+          "url": "https://insp.bf/wp-content/uploads/2023/06/Normes-et-protocoles-de-Prise-en-charge-HV-au-BF-Vf-2019.pdf",
+          "label": "Normes et protocoles de Prise en charge HV au BF Vf 2019"
+        }
+      ],
+      "videos": [],
+      "sourceFile": "Hépatites Virales &#8211; INSTITUT NATIONAL DE SANTE PUBLIQUE  du BURKINA FASO.html"
+    },
+    "directions-techniques": {
+      "slug": "directions-techniques",
+      "title": "Directions Techniques",
+      "date": null,
+      "excerpt": "Les Directions Techniques de I’INSP se composent de directions techniques «métiers» : Ia Direction du Centre MURAZ (CM); Ia Direction du Centre National de Recherche et de Formation sur le Pa…",
+      "heroImage": "https://i0.wp.com/insp.bf/wp-content/uploads/2020/07/cropped-logonew.jpg?fit=512%2C512&ssl=1",
+      "content": "<p>Les Directions Techniques de I’INSP se composent de directions techniques «métiers» :</p>\n<ul><li>Ia Direction du Centre MURAZ (CM); </li><li>Ia Direction du Centre National de Recherche et de Formation sur le Paludisme (CNRFP) ; </li><li>la Direction du Centre de Recherche enSanté de Nouna ; </li><li>Ia Direction du Centre des Opérations de Réponse aux Urgences Sanitaires (CORUS) ; </li><li>Ia Direction de I’ Observatoire National de Ia Sante de Ia Population (ONSP) ; </li><li>Ia Direction du Laboratoire Central de Référence(LCR).</li></ul>\n<p><strong>Les directions technique de recherche (CM, CRSN, CNRFP) sont  chargées de :</strong></p>\n<ul><li> de servir de cadre de conception, de programmation et</li><li> d’exécution des programmes et projets de recherche ;</li><li> d’assurer le suivi et l’évaluation des programmes et projets de</li><li> sante;</li><li> de fournir aux chercheurs l’encadrement et l’appui nécessaire a</li><li> leurs travaux ;</li><li> de fournir aux chercheurs les opportunités nécessaires a leur</li><li> promotion;</li><li> de contribuer a !’information et à Ia formation des chercheurs, du</li><li> personnel technique et scientifique, du personnel d’appui et de</li><li> soutien dans leurs domaines de compétence ;</li><li> de servir de cadre de formation et d’expertise en sante publique ;</li><li> de valoriser les résultats de recherche.</li></ul>\n<p><strong>Les directions techniques chargées de l’observation de Ia santé de Ia   population, de Ia veille sanitaire et des laboratoires comprennent :</strong> </p>\n<ul><li> La Direction du Centre des Opérations de Réponse aux Urgences</li><li> Sanitaires (CORUS)</li><li> La Direction de I’Observatoire National de Ia Sante de Ia Population  (ONSP)</li><li> La Direction du Laboratoire Central de Référence (LCR)</li></ul>",
+      "images": [],
+      "documents": [],
+      "videos": [],
+      "sourceFile": "Directions Techniques &#8211; INSTITUT NATIONAL DE SANTE PUBLIQUE  du BURKINA FASO.html"
+    },
+    "monkeypox-ou-variole-du-singe": {
+      "slug": "monkeypox-ou-variole-du-singe",
+      "title": "Monkeypox ou Variole du singe",
+      "date": "2024-08-18T11:58:36+02:00",
+      "excerpt": "Aide mémoire sur la variole du singe Aide-Memoire-Variole-de-Singe-1Télécharger",
+      "heroImage": "https://i0.wp.com/insp.bf/wp-content/uploads/2020/07/cropped-logonew.jpg?fit=512%2C512&ssl=1",
+      "content": "<p>Aide mémoire sur la variole du singe</p>\n<object data=\"https://insp.bf/wp-content/uploads/2024/08/Aide-Memoire-Variole-de-Singe-1.pdf\" type=\"application/pdf\"></object><a href=\"https://insp.bf/wp-content/uploads/2024/08/Aide-Memoire-Variole-de-Singe-1.pdf\"><strong>Aide-Memoire-Variole-de-Singe-1</strong></a><a href=\"https://insp.bf/wp-content/uploads/2024/08/Aide-Memoire-Variole-de-Singe-1.pdf\">Télécharger</a>",
+      "images": [],
+      "documents": [
+        {
+          "url": "https://insp.bf/wp-content/uploads/2024/08/Aide-Memoire-Variole-de-Singe-1.pdf",
+          "label": "Aide-Memoire-Variole-de-Singe-1"
+        }
+      ],
+      "videos": [],
+      "sourceFile": "Monkeypox ou Variole du singe &#8211; INSTITUT NATIONAL DE SANTE PUBLIQUE  du BURKINA FASO.html"
+    },
+    "publications-scientifiques-1": {
+      "slug": "publications-scientifiques-1",
+      "title": "Publications scientifiques",
+      "date": "2022-01-04T18:07:25+01:00",
+      "excerpt": "Publications scientifiques Bibliographie des publications INSP 2020Télécharger Publications_INSP_2021-2Télécharger",
+      "heroImage": "https://i0.wp.com/insp.bf/wp-content/uploads/2020/07/cropped-logonew.jpg?fit=512%2C512&ssl=1",
+      "content": "<p>Publications scientifiques</p>\n<object data=\"https://insp.bf/wp-content/uploads/2022/01/Bibliographie-des-publications-INSP-2020.pdf\" type=\"application/pdf\"></object><a href=\"https://insp.bf/wp-content/uploads/2022/01/Bibliographie-des-publications-INSP-2020.pdf\" rel=\"noreferrer noopener\" target=\"_blank\">Bibliographie des publications INSP 2020</a><a href=\"https://insp.bf/wp-content/uploads/2022/01/Bibliographie-des-publications-INSP-2020.pdf\">Télécharger</a>\n<object data=\"https://insp.bf/wp-content/uploads/2022/01/Publications_INSP_2021-2.pdf\" type=\"application/pdf\"></object><a href=\"https://insp.bf/wp-content/uploads/2022/01/Publications_INSP_2021-2.pdf\" rel=\"noreferrer noopener\" target=\"_blank\">Publications_INSP_2021-2</a><a href=\"https://insp.bf/wp-content/uploads/2022/01/Publications_INSP_2021-2.pdf\">Télécharger</a>",
+      "images": [],
+      "documents": [
+        {
+          "url": "https://insp.bf/wp-content/uploads/2022/01/Bibliographie-des-publications-INSP-2020.pdf",
+          "label": "Bibliographie des publications INSP 2020"
+        },
+        {
+          "url": "https://insp.bf/wp-content/uploads/2022/01/Publications_INSP_2021-2.pdf",
+          "label": "Publications_INSP_2021-2"
+        }
+      ],
+      "videos": [],
+      "sourceFile": "Publications scientifiques &#8211; INSTITUT NATIONAL DE SANTE PUBLIQUE  du BURKINA FASO.html"
+    },
+    "bioexpress": {
+      "slug": "bioexpress",
+      "title": "Chercheurs",
+      "date": "2019-07-26T04:21:52+02:00",
+      "excerpt": "BIO EXPRESS Chercheurs BIO-EXPRESS-HIEN-MWINONE-HERVE-DG_INSPTélécharger BIO-EXPRESS-BICABA BRICE DT-CORUSTélécharger BIO-EXPRESS-ABDOUL SALAM OUEDRAOGO DT-CMTélécharger",
+      "heroImage": "https://i0.wp.com/insp.bf/wp-content/uploads/2020/07/cropped-logonew.jpg?fit=512%2C512&ssl=1",
+      "content": "<p>BIO EXPRESS Chercheurs</p>\n<a href=\"https://insp.bf/wp-content/uploads/2022/09/BIO-EXPRESS-DG_INSP-FINAL-1.pdf\">BIO-EXPRESS-HIEN-MWINONE-HERVE-DG_INSP</a><a href=\"https://insp.bf/wp-content/uploads/2022/09/BIO-EXPRESS-DG_INSP-FINAL-1.pdf\">Télécharger</a>\n<a href=\"https://insp.bf/wp-content/uploads/2022/09/BIO-EXPRESS-DT-CORUS-FINAL-1.pdf\">BIO-EXPRESS-BICABA BRICE DT-CORUS</a><a href=\"https://insp.bf/wp-content/uploads/2022/09/BIO-EXPRESS-DT-CORUS-FINAL-1.pdf\">Télécharger</a>\n<a href=\"https://insp.bf/wp-content/uploads/2022/09/BIO-EXPRESS_DT-CM-FINAL-1.pdf\">BIO-EXPRESS-ABDOUL SALAM OUEDRAOGO DT-CM</a><a href=\"https://insp.bf/wp-content/uploads/2022/09/BIO-EXPRESS_DT-CM-FINAL-1.pdf\">Télécharger</a>",
+      "images": [],
+      "documents": [
+        {
+          "url": "https://insp.bf/wp-content/uploads/2022/09/BIO-EXPRESS-DG_INSP-FINAL-1.pdf",
+          "label": "BIO-EXPRESS-HIEN-MWINONE-HERVE-DG_INSP"
+        },
+        {
+          "url": "https://insp.bf/wp-content/uploads/2022/09/BIO-EXPRESS-DT-CORUS-FINAL-1.pdf",
+          "label": "BIO-EXPRESS-BICABA BRICE DT-CORUS"
+        },
+        {
+          "url": "https://insp.bf/wp-content/uploads/2022/09/BIO-EXPRESS_DT-CM-FINAL-1.pdf",
+          "label": "BIO-EXPRESS-ABDOUL SALAM OUEDRAOGO DT-CM"
+        }
+      ],
+      "videos": [],
+      "sourceFile": "Chercheurs &#8211; INSTITUT NATIONAL DE SANTE PUBLIQUE  du BURKINA FASO.html"
+    },
+    "nouvelles-publications": {
+      "slug": "nouvelles-publications",
+      "title": "Les rapports",
+      "date": "2019-07-19T18:23:50+02:00",
+      "excerpt": "RAPPORTS RAPPORT ETAT DE LA SANTE DE LA POPULATION Rapport_Etat_Sante_Pop_BFTélécharger PLAN STRATEGIQUE 2020-2024 PLAN-STRATEGIQUE-INSP-2020-2024Télécharger RAPPORT DE L’INSTITUT NATIONAL DE…",
+      "heroImage": "https://insp.bf/wp-content/uploads/2020/09/Plan-stratégique-2020-2024.jpg",
+      "content": "<h2><strong>RAPPORTS</strong></h2>\n<figure><img alt=\"\" src=\"https://i0.wp.com/www.insp.gov.bf/wp-content/uploads/2020/08/874-cover-1.png?resize=140%2C196\"/></figure>\n<p><a href=\"http://onsp-sante.bf/publication/290/%C3%A9tat-de-sant%C3%A9-de-la-population-du-burkina-faso\" rel=\"noreferrer noopener\" target=\"_blank\">RAPPORT ETAT DE LA SANTE DE LA POPULATION</a></p>\n<object data=\"https://insp.bf/wp-content/uploads/2020/08/Rapport_Etat_Sante_Pop_BF.pdf\" type=\"application/pdf\"></object><a href=\"https://insp.bf/wp-content/uploads/2020/08/Rapport_Etat_Sante_Pop_BF.pdf\">Rapport_Etat_Sante_Pop_BF</a><a href=\"https://insp.bf/wp-content/uploads/2020/08/Rapport_Etat_Sante_Pop_BF.pdf\">Télécharger</a>\n\n<figure><img alt=\"\" src=\"https://i0.wp.com/www.insp.gov.bf/wp-content/uploads/2020/09/Plan-stratégique-2020-2024-767x1024.jpg?resize=750%2C1001\"/></figure>\n<p>PLAN STRATEGIQUE 2020-2024</p>\n<object data=\"https://insp.bf/wp-content/uploads/2020/09/PLAN-STRATEGIQUE-INSP-2020-2024.pdf\" type=\"application/pdf\"></object><a href=\"https://insp.bf/wp-content/uploads/2020/09/PLAN-STRATEGIQUE-INSP-2020-2024.pdf\">PLAN-STRATEGIQUE-INSP-2020-2024</a><a href=\"https://insp.bf/wp-content/uploads/2020/09/PLAN-STRATEGIQUE-INSP-2020-2024.pdf\">Télécharger</a>\n\n<figure><img alt=\"\" src=\"https://i0.wp.com/www.insp.gov.bf/wp-content/uploads/2020/09/Rapport-de-lINSP-sur-la-COVID-767x1024.jpg?resize=750%2C1001\"/></figure>\n<p>RAPPORT DE L’INSTITUT NATIONAL DE SANTE PUBLIQUE SUR LA COVID-19</p>\n<object data=\"https://insp.bf/wp-content/uploads/2020/09/RAPPORT-INSP-COVID-19.pdf\" type=\"application/pdf\"></object><a href=\"https://insp.bf/wp-content/uploads/2020/09/RAPPORT-INSP-COVID-19.pdf\">RAPPORT-INSP-COVID-19</a><a href=\"https://insp.bf/wp-content/uploads/2020/09/RAPPORT-INSP-COVID-19.pdf\">Télécharger</a>",
+      "images": [
+        {
+          "src": "https://i0.wp.com/www.insp.gov.bf/wp-content/uploads/2020/08/874-cover-1.png?resize=140%2C196",
+          "alt": ""
+        },
+        {
+          "src": "https://i0.wp.com/www.insp.gov.bf/wp-content/uploads/2020/09/Plan-stratégique-2020-2024-767x1024.jpg?resize=750%2C1001",
+          "alt": ""
+        },
+        {
+          "src": "https://i0.wp.com/www.insp.gov.bf/wp-content/uploads/2020/09/Rapport-de-lINSP-sur-la-COVID-767x1024.jpg?resize=750%2C1001",
+          "alt": ""
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://insp.bf/wp-content/uploads/2020/08/Rapport_Etat_Sante_Pop_BF.pdf",
+          "label": "Rapport_Etat_Sante_Pop_BF"
+        },
+        {
+          "url": "https://insp.bf/wp-content/uploads/2020/09/PLAN-STRATEGIQUE-INSP-2020-2024.pdf",
+          "label": "PLAN-STRATEGIQUE-INSP-2020-2024"
+        },
+        {
+          "url": "https://insp.bf/wp-content/uploads/2020/09/RAPPORT-INSP-COVID-19.pdf",
+          "label": "RAPPORT-INSP-COVID-19"
+        }
+      ],
+      "videos": [],
+      "sourceFile": "Les rapports &#8211; INSTITUT NATIONAL DE SANTE PUBLIQUE  du BURKINA FASO.html"
+    },
+    "nos-structures-metiers/cnrfp": {
+      "slug": "nos-structures-metiers/cnrfp",
+      "title": "le CNRFP",
+      "date": null,
+      "excerpt": "« Etre au sommet de la recherche contre le Paludisme » Le Centre National de Recherche et de Formation sur le Paludisme est l’un des trois (03) centres de recherches de l’INSP Historiqu…",
+      "heroImage": "https://i0.wp.com/insp.bf/wp-content/uploads/2020/07/cropped-logonew.jpg?fit=512%2C512&ssl=1",
+      "content": "<figure><img alt=\"\" src=\"https://i0.wp.com/insp.bf/wp-content/uploads/2020/08/cnrfp.png?resize=125%2C130&amp;ssl=1\"/></figure>\n<p>« <strong><em>Etre au sommet de la recherche contre le Paludisme</em></strong>« </p>\n\n<p> Le Centre National de Recherche et de Formation sur le Paludisme est l’un des trois (03) centres de recherches de l’INSP </p>\n<p><strong>Historique </strong></p>\n<ul>\n<li>1980 :  projet communautaire de « Lutte contre le paludisme dans la ville de Ouagadougou » coopération italienne;</li>\n<li>1986 :   création du centre de lutte contre le paludisme </li>\n<li>1993 :  rattaché à la direction générale de la santé publique (DGSP),  érection en Centre National de Lutte contre le Paludisme (CNLP) </li>\n<li>1998 : érection en CNRFP</li>\n<li>2018: fusion/absorption dans l’INSP</li>\n</ul>\n<p><strong><em>Mission</em></strong></p>\n<p>Les missions du <strong>CNRFP </strong>ont évolué au gré des différents changements de dénomination. A l’origine, le projet de médecine communautaire de la ville de Ouagadougou avait comme principales missions la lutte anti vectorielle dans la ville avec des campagnes de pulvérisations de DDT. Quant au <strong>Centre National de Lutte contre le Paludisme</strong>, ses missions principales se déclinaient comme suit : </p>\n<ul>\n<li>Contribuer, à travers les résultats de la recherche, à l’orientation de la politique de santé pour la réduction du fardeau du paludisme ;</li>\n<li>Servir de laboratoire associé au <strong>CNRST</strong>, aux universités et hôpitaux du Burkina Faso et à toute autre structure de recherche et formation nationale pour la recherche et la formation en santé en général et sur le paludisme en particulier ;</li>\n<li>Servir de centre d’excellence au niveau national pour la recherche et la formation sur le paludisme ;</li>\n<li>Contribuer à la formation et au recyclage des chercheurs, des étudiants et des agents de santé dans le domaine du paludisme.</li>\n</ul>\n<p><strong>Contact</strong></p>\n<ul>\n<li>Situation Géographique : Rue 14.18 Avenue Komdagnonré , non loin du CHU Yalgado Ouedraogo. </li>\n<li> <strong>Boite postal </strong>: BP 10278 Ouagadougou Zogona</li>\n<li><strong>Tél </strong>: +226 01 90 58 58</li>\n<li><strong>Email </strong>: secretariat.dg@insp.bf</li>\n</ul>\n<p> l’INSP joue le rôle d’organe de coordination des centres de recherche publics (centre Muraz, Centre de recherche en santé de Nouna, centre de recherche et de formation sur le paludisme). A ce titre il offre des :<br/>– compétences de base clés pour chaque centre<br/>– Eviter la duplication dans les activités de recherche<br/>– Alignement sur les priorités de recherche </p>\n<p><strong>Pour plus de détails visitez le site web du <a href=\"http://www.cnrfp.bf\" rel=\"noreferrer noopener\" target=\"_blank\">CNRFP</a></strong></p>",
+      "images": [
+        {
+          "src": "https://i0.wp.com/insp.bf/wp-content/uploads/2020/08/cnrfp.png?resize=125%2C130&ssl=1",
+          "alt": ""
+        }
+      ],
+      "documents": [],
+      "videos": [],
+      "sourceFile": "le CNRFP &#8211; INSTITUT NATIONAL DE SANTE PUBLIQUE  du BURKINA FASO.html"
+    },
+    "mot-du-directeur-general-dr-seydou-barro": {
+      "slug": "mot-du-directeur-general-dr-seydou-barro",
+      "title": "Mot du Directeur Général de l’INSP",
+      "date": "2024-03-04T19:42:08+01:00",
+      "excerpt": "Chers visiteurs, Chers partenaires, Chers collaborateurs, C’est avec un immense plaisir que je m’adresse à vous en tant que nouveau Directeur Général de l’Institut national de santé pub…",
+      "heroImage": "https://insp.bf/wp-content/uploads/2024/03/photo-DG-BARRO-1.jpg",
+      "content": "<figure><img alt=\"\" src=\"https://i0.wp.com/insp.bf/wp-content/uploads/2024/03/photo-DG-BARRO-1.jpg?resize=700%2C578&amp;ssl=1\"/></figure>\n<p>Chers visiteurs,</p>\n<p>Chers partenaires,</p>\n<p>Chers collaborateurs,</p>\n\n\n<p>C’est avec un immense plaisir que je m’adresse à vous en tant que nouveau Directeur Général de l’Institut national de santé publique (INSP) du Burkina Faso. C’est pour moi un honneur de rejoindre une équipe aussi formidable, talentueuse et dévouée, ainsi qu’une communauté aussi diversifiée mais combien engagée pour la cause de la santé publique.</p>\n<p>A l’entame de mon propos, je tiens à exprimer ma gratitude envers mon prédécesseur pour le travail remarquable accompli, posant ainsi des fondations solides sur lesquelles, avec vous, j’entends continuer à bâtir l’INSP. J’espère poursuivre cette œuvre et ce partenariat déjà tissé avec chaque visiteur de ce site et chaque collaborateur de l’INSP. </p>\n<p>Ma vision pour notre institution repose sur deux piliers fondamentaux : l’innovation et l’engagement. Nous vivons dans une époque de changements rapides et de défis constants, et je crois fermement que l’innovation est la clé pour prospérer dans un tel environnement en constante évolution, surtout dans le domaine de la santé publique. Aussi, devons-nous collectivement être prêts à repousser les limites, à explorer de nouvelles idées et à adopter les technologies émergentes pour rester à la pointe de notre domaine, afin d’assurer un meilleur bien-être à nos populations.</p>\n<p>En outre, ma conviction est établie qu’aucune institution telle que la nôtre ne peut réussir ces grands challenges sans une communauté engagée et unie. C’est pourquoi je m’engage à renforcer nos liens, à favoriser la collaboration et à être à l’écoute  des idées et des préoccupations que vous viendrez à partager avec nous à travers les différents canaux, notamment ce site. Ne dit-on pas <em>« seul on va vite, ensemble, on va loin ! »</em>. Je dirai qu’ensemble, nous sommes plus forts. C’est pourquoi je reste convaincu que notre travail commun nous permettra d’atteindre de nouveaux sommets.</p>\n<p>Je réitère mon bonheur de travailler avec toutes et tous afin de contribuer à la mise en œuvre réussie des missions de l’INSP dans la perspective de la construction d’un système de santé plus solide et résilient. N’hésitez donc pas à nous contacter pour des questions, des suggestions, des  partenariats ou simplement pour nous encourager dans la mise en œuvre de nos activités de veille sanitaire, de recherche sectorielle en santé, de formation et d’expertise.</p>\n<p>Merci pour votre accueil chaleureux et pour votre dévouement envers  l’Institut national de santé publique du Burkina Faso . Merci pour la confiance renouvelée et la constante collaboration avec votre opérateur de santé publique, l’ « INSP ».</p>\n<p><strong><u>Dr Seydou BARRO</u></strong> </p>\n<p><em>Médecin de Santé Publique.</em> </p>\n<p><em>Directeur Général de l’INSP-BF.</em></p>\n<p><em>Membre de IANPHI.</em></p>",
+      "images": [
+        {
+          "src": "https://i0.wp.com/insp.bf/wp-content/uploads/2024/03/photo-DG-BARRO-1.jpg?resize=700%2C578&ssl=1",
+          "alt": ""
+        }
+      ],
+      "documents": [],
+      "videos": [],
+      "sourceFile": "Mot du Directeur Général de l&rsquo;INSP &#8211; INSTITUT NATIONAL DE SANTE PUBLIQUE  du BURKINA FASO.html"
+    },
+    "presentation/que-faisons-nous": {
+      "slug": "presentation/que-faisons-nous",
+      "title": "Que faisons nous",
+      "date": null,
+      "excerpt": "Que faisons nous ? Élément clé du programme national de santé L’INSP-BF jouera un rôle majeur dans la réalisation des objectifs de santé. Il devra avec l’appui des 4 piliers représentés…",
+      "heroImage": "https://i0.wp.com/insp.bf/wp-content/uploads/2020/07/cropped-logonew.jpg?fit=512%2C512&ssl=1",
+      "content": "<p><strong>Que faisons nous ?</strong></p>\n<p>Élément clé du programme national de santé  L’INSP-BF  jouera un rôle majeur dans la réalisation des objectifs de santé. Il devra avec l’appui des 4 piliers représentés par les 6 directions techniques et ces structures supports de coordination technique, de gestion administrative et financière, d’animation scientifique pouvoir:</p>\n<ul><li> Consolider les fonctions de santé publique existantes au sein <strong>d’une seule entité </strong>qui sera chargée de superviser le contrôle et la réponse aux maladies; </li><li> Assurer la disponibilité de <strong>données de haute qualité </strong>issues de la surveillance épidémiologique;</li><li> Fournir une <strong>réponse opportune et fondée sur des preuves </strong>aux problèmes de sante publique;</li><li> <strong>Servir de centre de liaison (unique)</strong> au pays pour la coordination et la communication avec les entités régionales et continentales de gestion de la sante publique;</li><li><strong>Etre un centre d’innovation </strong>ou les nouvelles pratiques et méthodes seront testées et incubées avant de les appliquer au sein du ministre de la sante </li></ul>",
+      "images": [],
+      "documents": [],
+      "videos": [],
+      "sourceFile": "Que faisons nous &#8211; INSTITUT NATIONAL DE SANTE PUBLIQUE  du BURKINA FASO.html"
+    },
+    "presentation/historique": {
+      "slug": "presentation/historique",
+      "title": "Organigramme",
+      "date": null,
+      "excerpt": "L’organigramme actuel de l’INSP se présente comme suit : organigramme INSP_2021",
+      "heroImage": "https://insp.bf/wp-content/uploads/2022/06/Organigramme-modifié.fw_.png",
+      "content": "<p><strong>L’organigramme actuel de l’INSP se présente comme suit : </strong></p>\n<figure><img alt=\"\" src=\"https://i0.wp.com/www.insp.gov.bf/wp-content/uploads/2022/06/Organigramme-modifié.fw_.png?resize=750%2C523\"/><figcaption>organigramme <strong>INSP_2021</strong></figcaption></figure>",
+      "images": [
+        {
+          "src": "https://i0.wp.com/www.insp.gov.bf/wp-content/uploads/2022/06/Organigramme-modifié.fw_.png?resize=750%2C523",
+          "alt": ""
+        }
+      ],
+      "documents": [],
+      "videos": [],
+      "sourceFile": "Organigramme &#8211; INSTITUT NATIONAL DE SANTE PUBLIQUE  du BURKINA FASO.html"
+    },
+    "covid-19": {
+      "slug": "covid-19",
+      "title": "Maladie à coronavirus COVID-19",
+      "date": null,
+      "excerpt": "EDITORIAL SPUB_202_0145Télécharger Veille Documentaire Veille N°1 COVID – 19 Veille N°2 COVID – 19 Veille N°3 COVID – 19 Veille N°4 COVID – 19 Veille N°1 COVID – 19…",
+      "heroImage": "https://i0.wp.com/insp.bf/wp-content/uploads/2020/07/cropped-logonew.jpg?fit=512%2C512&ssl=1",
+      "content": "<p><strong>EDITORIAL</strong></p>\n<object data=\"https://insp.bf/wp-content/uploads/2020/09/SPUB_202_0145.pdf\" type=\"application/pdf\"></object><a href=\"https://insp.bf/wp-content/uploads/2020/09/SPUB_202_0145.pdf\">SPUB_202_0145</a><a href=\"https://insp.bf/wp-content/uploads/2020/09/SPUB_202_0145.pdf\">Télécharger</a>\n<p><strong>Veille Documentaire </strong></p>\n<p><a href=\"https://insp.bf/wp-content/uploads/2020/07/Veille_N°1_COVID-19_22.04.2020_.pdf\" rel=\"noreferrer noopener\" target=\"_blank\"><span>Veille N°1 COVID – 19</span></a></p>\n<p><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/Veille_N°2_COVID-19_03.04.2020_.pdf\" rel=\"noreferrer noopener\" target=\"_blank\">Veille N°2 COVID – 19</a></p>\n<p><a href=\"https://insp.bf/wp-content/uploads/2020/07/Veille_N°3_COVID-19_15.04.2020_.pdf\" rel=\"noreferrer noopener\" target=\"_blank\">Veille N°3 COVID – 19</a></p>\n<p><a href=\"https://insp.bf/wp-content/uploads/2020/07/Veille_N°4_COVID-19_23.04.2020_.pdf\" rel=\"noreferrer noopener\" target=\"_blank\">Veille N°4 COVID – 19</a></p>\n<p><a href=\"https://insp.bf/wp-content/uploads/2020/07/Veille_N°5_COVID-19_14.05.2020_.pdf\" rel=\"noreferrer noopener\" target=\"_blank\">Veille N°1 COVID – 19</a></p>",
+      "images": [],
+      "documents": [
+        {
+          "url": "https://insp.bf/wp-content/uploads/2020/09/SPUB_202_0145.pdf",
+          "label": "SPUB_202_0145"
+        },
+        {
+          "url": "https://insp.bf/wp-content/uploads/2020/07/Veille_N°1_COVID-19_22.04.2020_.pdf",
+          "label": "Veille N°1 COVID – 19"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/07/Veille_N°2_COVID-19_03.04.2020_.pdf",
+          "label": "Veille N°2 COVID – 19"
+        },
+        {
+          "url": "https://insp.bf/wp-content/uploads/2020/07/Veille_N°3_COVID-19_15.04.2020_.pdf",
+          "label": "Veille N°3 COVID – 19"
+        },
+        {
+          "url": "https://insp.bf/wp-content/uploads/2020/07/Veille_N°4_COVID-19_23.04.2020_.pdf",
+          "label": "Veille N°4 COVID – 19"
+        },
+        {
+          "url": "https://insp.bf/wp-content/uploads/2020/07/Veille_N°5_COVID-19_14.05.2020_.pdf",
+          "label": "Veille N°1 COVID – 19"
+        }
+      ],
+      "videos": [],
+      "sourceFile": "Maladie à coronavirus COVID-19 &#8211; INSTITUT NATIONAL DE SANTE PUBLIQUE  du BURKINA FASO.html"
+    },
+    "notes-de-politiques": {
+      "slug": "notes-de-politiques",
+      "title": "Notes de Politiques",
+      "date": "2022-01-04T19:05:22+01:00",
+      "excerpt": "Policy Article_ Barriers-and-facilitators-for-the-sustainability-of-digital-health-interventions-in-low-and-middle Télécharger Policy_Vaccination-VFTélécharger Policy_Paludisme-VFTélécharger Note_p…",
+      "heroImage": "https://i0.wp.com/insp.bf/wp-content/uploads/2020/07/cropped-logonew.jpg?fit=512%2C512&ssl=1",
+      "content": "<p>Policy</p>\n<a href=\"https://insp.bf/wp-content/uploads/2022/12/Barriers-and-facilitators-for-the-sustainability-of-digital-health-interventions-in-low-and-middle.pdf\"><strong>Article_ Barriers-and-facilitators-for-the-sustainability-of-digital-health-interventions-in-low-and-middle</strong> </a><a href=\"https://insp.bf/wp-content/uploads/2022/12/Barriers-and-facilitators-for-the-sustainability-of-digital-health-interventions-in-low-and-middle.pdf\">Télécharger</a>\n<a href=\"https://insp.bf/wp-content/uploads/2022/01/Policy_Vaccination-VF.pdf\"><strong>Policy_Vaccination-VF</strong></a><a href=\"https://insp.bf/wp-content/uploads/2022/01/Policy_Vaccination-VF.pdf\">Télécharger</a>\n<a href=\"https://insp.bf/wp-content/uploads/2022/01/Policy_Paludisme-VF.pdf\"><strong>Policy_Paludisme-VF</strong></a><a href=\"https://insp.bf/wp-content/uploads/2022/01/Policy_Paludisme-VF.pdf\">Télécharger</a>\n<a href=\"https://insp.bf/wp-content/uploads/2022/01/Note_politique_VIH-VF.pdf\"><strong>Note_politique_VIH-VF</strong></a><a href=\"https://insp.bf/wp-content/uploads/2022/01/Note_politique_VIH-VF.pdf\">Télécharger</a>\n<a href=\"https://insp.bf/wp-content/uploads/2022/01/ijms-24-01924-1.pdf\" rel=\"noreferrer noopener\" target=\"_blank\"><strong>HIV Replication Increases the Mitochondrial DNA Content of Plasma Extracellular Vesicles</strong></a><a href=\"https://insp.bf/wp-content/uploads/2022/01/ijms-24-01924-1.pdf\">Télécharger</a>",
+      "images": [],
+      "documents": [
+        {
+          "url": "https://insp.bf/wp-content/uploads/2022/12/Barriers-and-facilitators-for-the-sustainability-of-digital-health-interventions-in-low-and-middle.pdf",
+          "label": "Article_ Barriers-and-facilitators-for-the-sustainability-of-digital-health-interventions-in-low-and-middle"
+        },
+        {
+          "url": "https://insp.bf/wp-content/uploads/2022/01/Policy_Vaccination-VF.pdf",
+          "label": "Policy_Vaccination-VF"
+        },
+        {
+          "url": "https://insp.bf/wp-content/uploads/2022/01/Policy_Paludisme-VF.pdf",
+          "label": "Policy_Paludisme-VF"
+        },
+        {
+          "url": "https://insp.bf/wp-content/uploads/2022/01/Note_politique_VIH-VF.pdf",
+          "label": "Note_politique_VIH-VF"
+        },
+        {
+          "url": "https://insp.bf/wp-content/uploads/2022/01/ijms-24-01924-1.pdf",
+          "label": "HIV Replication Increases the Mitochondrial DNA Content of Plasma Extracellular Vesicles"
+        }
+      ],
+      "videos": [],
+      "sourceFile": "Notes de Politiques &#8211; INSTITUT NATIONAL DE SANTE PUBLIQUE  du BURKINA FASO.html"
+    },
+    "phototheque-videotheque": {
+      "slug": "phototheque-videotheque",
+      "title": "Vidéo en ligne",
+      "date": null,
+      "excerpt": "Vidéo sur les maladies de la saison sèche dont la covid-19 Capsules sur les Chercheurs de l’INSP en visitant notre chaine Dr GUELBEOGO – CNRFP – Dr Seni KOUANDA – Dr Alice G…",
+      "heroImage": "https://insp.bf/wp-content/uploads/2024/01/logo-video.fw_.png",
+      "content": "<p><a href=\"https://youtu.be/b8I1uRRAWDI\" rel=\"noreferrer noopener\" target=\"_blank\"><strong>Vidéo sur les maladies de la saison sèche dont la covid-19</strong></a></p>\n<figure>\n<figure><a href=\"https://youtu.be/b8I1uRRAWDI\"><img alt=\"\" src=\"https://i0.wp.com/insp.bf/wp-content/uploads/2024/01/logo-video.fw_.png?resize=512%2C332&amp;ssl=1\"/></a></figure>\n<figure><a href=\"https://youtu.be/b8I1uRRAWDI\" rel=\"noreferrer noopener\" target=\"_blank\"><img alt=\"\" src=\"https://i0.wp.com/insp.bf/wp-content/uploads/2024/01/photo-page-video-saison-seche.fw_.png?resize=750%2C424&amp;ssl=1\"/></a></figure>\n</figure>\n\n<p><strong><a href=\"https://www.youtube.com/channel/UC7nJkngSH2krNFDVJ1gzLig\" rel=\"noreferrer noopener\" target=\"_blank\">Capsules sur les Chercheurs de l’INSP en visitant notre chaine</a></strong></p>\n<figure><a href=\"https://www.youtube.com/channel/UC7nJkngSH2krNFDVJ1gzLig\"><img alt=\"\" src=\"https://i0.wp.com/insp.bf/wp-content/uploads/2023/01/page_garde-capsules.fw_.png?resize=750%2C136&amp;ssl=1\"/></a><figcaption>Dr GUELBEOGO – CNRFP – Dr Seni KOUANDA – Dr Alice GUINGANE – Dr Brice BICABA</figcaption></figure>\n<p><strong><a href=\"https://www.youtube.com/@institutinsp9135\" rel=\"noreferrer noopener\" target=\"_blank\">Visitez la chaine vidéo de l’INSP pour plus de Vidéo </a></strong></p>",
+      "images": [
+        {
+          "src": "https://i0.wp.com/insp.bf/wp-content/uploads/2024/01/logo-video.fw_.png?resize=512%2C332&ssl=1",
+          "alt": ""
+        },
+        {
+          "src": "https://i0.wp.com/insp.bf/wp-content/uploads/2024/01/photo-page-video-saison-seche.fw_.png?resize=750%2C424&ssl=1",
+          "alt": ""
+        },
+        {
+          "src": "https://i0.wp.com/insp.bf/wp-content/uploads/2023/01/page_garde-capsules.fw_.png?resize=750%2C136&ssl=1",
+          "alt": ""
+        }
+      ],
+      "documents": [],
+      "videos": [
+        "https://youtu.be/b8I1uRRAWDI",
+        "https://www.youtube.com/channel/UC7nJkngSH2krNFDVJ1gzLig",
+        "https://www.youtube.com/@institutinsp9135"
+      ],
+      "sourceFile": "Vidéo en ligne &#8211; INSTITUT NATIONAL DE SANTE PUBLIQUE  du BURKINA FASO.html"
+    },
+    "presentation/notre-vision": {
+      "slug": "presentation/notre-vision",
+      "title": "Notre vision",
+      "date": null,
+      "excerpt": "Notre vision L’Institut National de Santé Publique envisage d’ici l’horizon 2030 mettre à la disposition des programmes de la société civile , des communautés et des décideurs un …",
+      "heroImage": "https://i0.wp.com/insp.bf/wp-content/uploads/2020/07/cropped-logonew.jpg?fit=512%2C512&ssl=1",
+      "content": "<p><strong>Notre vision</strong></p>\n<p>L’Institut National de Santé Publique envisage d’ici l’horizon <strong>2030 </strong>mettre à la disposition des programmes de la société civile , des communautés et des décideurs un instrument fiable qui stimule un système de santé performant qui préserve un capital humain des risques sanitaires majeurs en vue d’un développement social, sanitaire et économique durable au Burkina Faso .</p>",
+      "images": [],
+      "documents": [],
+      "videos": [],
+      "sourceFile": "Notre vision &#8211; INSTITUT NATIONAL DE SANTE PUBLIQUE  du BURKINA FASO.html"
+    },
+    "nos-structures-metiers/onsp": {
+      "slug": "nos-structures-metiers/onsp",
+      "title": "Observatoire Nationale de la Santé de la Population",
+      "date": null,
+      "excerpt": "« L’ONSP  développe  Ia production  des données  sur l’état  de sante de Ia population  et anime une plateforme  de valorisation  des données &nb…",
+      "heroImage": "https://i0.wp.com/insp.bf/wp-content/uploads/2020/07/cropped-logonew.jpg?fit=512%2C512&ssl=1",
+      "content": "<figure><img alt=\"\" src=\"https://i0.wp.com/insp.bf/wp-content/uploads/2020/07/Logo_ONSP.jpg?resize=486%2C170&amp;ssl=1\"/></figure>\n<p><strong><em>« L’ONSP  développe  Ia production  des données  sur l’état  de sante de Ia population  et anime une plateforme  de valorisation  des données  issues de plusieurs sources sectorielles ».</em></strong></p>\n\n<p><strong>Missions</strong></p>\n<p>Enquêtes de santé à grande échelle<br/>– Information sur le système de santé et les conditions de santé de la population<br/>– Evaluations de programmes de santé publique à grande échelle <br/>– Guichet unique , pour des informations factuelles et des connaissances sur la situation sanitaire et les tendances dans le pays </p>\n<p>La gestion de Ia santé publique est assurée par 3 centres métiers que sont le CORUS, le LCR et <strong>I’ONSP</strong> qui sont en étroite collaboration avec les Programmes de recherche. </p>\n<p><strong>Contact</strong></p>\n<ul>\n<li><strong>Boite postal </strong>: BP 10278 Ouagadougou Zogona</li>\n<li><strong>Tél </strong>: +226 01 90 58 58</li>\n<li><strong>Email </strong>: secretariat.dg@insp.bf</li>\n</ul>\n<p>Pour de plus amples informations visitez le site web du <a href=\"https://onsp.ms.sante.gov.bf/\" rel=\"noreferrer noopener\" target=\"_blank\">ONSP </a>et la <a href=\"http://facebook.com/inspburkina.sante\" rel=\"noreferrer noopener\" target=\"_blank\">page facebook</a><br/></p>",
+      "images": [
+        {
+          "src": "https://i0.wp.com/insp.bf/wp-content/uploads/2020/07/Logo_ONSP.jpg?resize=486%2C170&ssl=1",
+          "alt": ""
+        }
+      ],
+      "documents": [],
+      "videos": [],
+      "sourceFile": "Observatoire Nationale de la Santé de la Population &#8211; INSTITUT NATIONAL DE SANTE PUBLIQUE  du BURKINA FASO.html"
+    },
+    "nos-structures-metiers/lcr": {
+      "slug": "nos-structures-metiers/lcr",
+      "title": "Laboratoire Central de Référence",
+      "date": null,
+      "excerpt": "« Le  Laboratoire   Central  de  Référence   (LCR)  fourni  des   services  de laboratoires  de références pour le contrôle des mala…",
+      "heroImage": "https://i0.wp.com/insp.bf/wp-content/uploads/2020/07/cropped-logonew.jpg?fit=512%2C512&ssl=1",
+      "content": "<p>« <strong><em><span>Le  Laboratoire   Central  de  Référence   (LCR)  fourni  des   services  de laboratoires  de références pour le contrôle des maladies »</span></em></strong></p>\n<figure><img alt=\"\" src=\"https://i0.wp.com/197.239.74.220/wp-content/uploads/2019/10/lcr_slide3-1024x576.jpg?resize=750%2C422\"/></figure>\n<p><strong>Missions</strong></p>\n<p> Organe de coordination et contrôle de qualité pour tous les laboratoires nationaux de référence<br/>– Définition et mise en oeuvre de solutions à l’échelle du système pour relever les défis communs rencontrés par les laboratoires de référence (gestion des déchets, biosécurité, transport d’échantillons etc) </p>\n<p><strong>Contact</strong></p>\n<ul>\n<li><strong>Boite postal </strong>: BP 10278 Ouagadougou Zogona </li>\n<li><strong>Tél </strong>: +226 01 90 58 58</li>\n<li><strong>Email </strong>: secretariat.dg@insp.bf</li>\n</ul>\n<p> Pour de plus amples informations visitez le site web du <a href=\"http://www.lcr-insp.gov.bf/\">LCR</a> et la <a href=\"https://web.facebook.com/inspburkina.sante\">page facebook</a><br/></p>",
+      "images": [
+        {
+          "src": "https://i0.wp.com/197.239.74.220/wp-content/uploads/2019/10/lcr_slide3-1024x576.jpg?resize=750%2C422",
+          "alt": ""
+        }
+      ],
+      "documents": [],
+      "videos": [],
+      "sourceFile": "Laboratoire Central de Référence &#8211; INSTITUT NATIONAL DE SANTE PUBLIQUE  du BURKINA FASO.html"
+    },
+    "presentation/missions": {
+      "slug": "presentation/missions",
+      "title": "Missions",
+      "date": null,
+      "excerpt": "Les principales missions assignées à l’INSP : assurer la veille sanitaire pour détecter a temps les risques sanitaires et alerter en retour les autorités de sante pour une réponse précoce ido…",
+      "heroImage": "https://i0.wp.com/insp.bf/wp-content/uploads/2020/07/cropped-logonew.jpg?fit=512%2C512&ssl=1",
+      "content": "<p><strong>Les principales missions assignées à l’INSP :</strong></p>\n<ul><li>assurer la veille sanitaire pour détecter a temps les risques sanitaires et alerter en retour les autorités de sante pour une réponse précoce idoine; </li><li> fournir aux autorités de sante et à Ia population, des services de laboratoire central de référence pour la protection de la sante et pour la lutte contre les maladies transmissibles et non-transmissibles;</li><li> assurer, au sein du Ministère charge de la Sante, la promotion et la valorisation des résultats de la recherche entreprise a tous les niveaux du système de santé pour une meilleure efficacité et une assurance qualité de la recherche menée;</li><li>Promouvoir la diffusion et l’utilisation des résultats de la recherche en santé par des moyens appropriés;</li><li>développer une expertise thématique, analytique et méthodologique en appui à la réalisation des fonctions essentielles de sante publique par les autorités de sante;</li><li>utiliser le mécanisme de l’expertise scientifique rapide au collective pour formuler, chaque fois que de besoin, des recommandations à l’attention des autorités de sante pour l’amélioration continue du système national de sante;</li><li>évaluer les programmes et les projets de sante ainsi que la performance globale du système national de sante;</li><li>promouvoir la qualité des soins et des services de santé;</li><li> participer au développement, en collaboration avec les institutions nationales et Internationales d’enseignement et de recherche, a la formation continue non diplômant mais certifiant en sante publique, a l’intention des professionnels de la sante;</li><li> développer des partenariats avec d’autres personnes morales publiques au privées dans le cadre de la mise en oeuvre des fonctions essentielles de sante.</li></ul>",
+      "images": [],
+      "documents": [],
+      "videos": [],
+      "sourceFile": "Missions &#8211; INSTITUT NATIONAL DE SANTE PUBLIQUE  du BURKINA FASO.html"
+    },
+    "nos-structures-metiers/corus": {
+      "slug": "nos-structures-metiers/corus",
+      "title": "Centre des Opérations de Réponse aux Urgences Sanitaires",
+      "date": null,
+      "excerpt": "« Nous anticipons et contrôlons les épidémies et risques sanitaires » Vision : Assurer le leadership dans la préparation collective, la coordination et la gestion des opérations liées aux risques e…",
+      "heroImage": "https://i0.wp.com/insp.bf/wp-content/uploads/2020/07/cropped-logonew.jpg?fit=512%2C512&ssl=1",
+      "content": "<figure><img alt=\"\" src=\"https://insp.bf/wp-content/uploads/2022/11/logo_CORUS.bmp\"/></figure>\n<p><strong>« Nous anticipons et contrôlons les épidémies et risques sanitaires »</strong></p>\n<p><strong>Vision</strong> : Assurer le leadership dans la préparation collective, la coordination et la gestion des opérations liées aux risques et urgences sanitaires au Burkina Faso à l’horizon 2020.  </p>\n\n<p> <strong>Missions </strong></p>\n<p>Élaboration des plans de riposte et plan de contingence<br/>– Organisation d’exercices de simulation<br/>– Formation des différents intervenants impliqués dans les procédures<br/>– Organisation de la réponse aux urgences sanitaires </p>\n<p>L’INSP est chargé  d’assurer la veille sanitaire pour détecter à temps les risques sanitaires et alerter en retour les autorités de santé pour une réponse précoce idoine. Le CORUS en a fait sa mission. </p>\n<p><strong>Contact</strong></p>\n<ul>\n<li><strong>Boite postal </strong>:  BP 10 278 Ouagadougou Zogona  </li>\n<li><strong>Tél </strong>: +226 01 90 58 58  </li>\n<li><strong>Email </strong>: secretariat.dg@insp.bf</li>\n</ul>\n<p> Le Centre des Opérations de Réponses aux Urgences Sanitaires (CORUS) fourni des services de préparation, de réponses et de coordination des urgences sanitaires. </p>\n<p>Pour de plus amples informations visitez le site web du <a href=\"http://www.corus.gov.bf\" rel=\"noreferrer noopener\" target=\"_blank\">CORUS</a> et la <a href=\"http://www.facebook.com/inspburkina.sante\">page facebook</a></p>",
+      "images": [
+        {
+          "src": "https://insp.bf/wp-content/uploads/2022/11/logo_CORUS.bmp",
+          "alt": ""
+        }
+      ],
+      "documents": [],
+      "videos": [],
+      "sourceFile": "Centre des Opérations de Réponse aux Urgences Sanitaires &#8211; INSTITUT NATIONAL DE SANTE PUBLIQUE  du BURKINA FASO.html"
+    },
+    "phototheque": {
+      "slug": "phototheque",
+      "title": "Photothèque",
+      "date": "2019-07-20T01:33:07+02:00",
+      "excerpt": "Voir l’article pour en savoir plus.",
+      "heroImage": "https://i0.wp.com/insp.bf/wp-content/uploads/2020/07/cropped-logonew.jpg?fit=512%2C512&ssl=1",
+      "content": "",
+      "images": [],
+      "documents": [],
+      "videos": [],
+      "sourceFile": "Photothèque &#8211; INSTITUT NATIONAL DE SANTE PUBLIQUE  du BURKINA FASO.html"
+    },
+    "messages-covid-19": {
+      "slug": "messages-covid-19",
+      "title": "Messages COVID-19",
+      "date": null,
+      "excerpt": "VISUEL-PERSONNEL-DE-SANTE1-1Télécharger VISUEL-1-1Télécharger VISUEL-COVID-3-1Télécharger",
+      "heroImage": "https://i0.wp.com/insp.bf/wp-content/uploads/2022/01/COVIDAFF4.jpg?fit=900%2C834&ssl=1",
+      "content": "<figure><img alt=\"\" src=\"https://i0.wp.com/www.insp.gov.bf/wp-content/uploads/2022/01/covidaffiche1-3.jpg?resize=750%2C532\"/></figure>\n<object data=\"https://insp.bf/wp-content/uploads/2022/01/VISUEL-PERSONNEL-DE-SANTE1-1.pdf\" type=\"application/pdf\"></object><a href=\"https://insp.bf/wp-content/uploads/2022/01/VISUEL-PERSONNEL-DE-SANTE1-1.pdf\">VISUEL-PERSONNEL-DE-SANTE1-1</a><a href=\"https://insp.bf/wp-content/uploads/2022/01/VISUEL-PERSONNEL-DE-SANTE1-1.pdf\">Télécharger</a>\n\n<figure><img alt=\"\" src=\"https://i0.wp.com/www.insp.gov.bf/wp-content/uploads/2022/01/covidaffiche2.fw_-2.png?resize=355%2C481\"/></figure>\n<object data=\"https://insp.bf/wp-content/uploads/2022/01/VISUEL-1-1.pdf\" type=\"application/pdf\"></object><a href=\"https://insp.bf/wp-content/uploads/2022/01/VISUEL-1-1.pdf\">VISUEL-1-1</a><a href=\"https://insp.bf/wp-content/uploads/2022/01/VISUEL-1-1.pdf\">Télécharger</a>\n\n<figure><img alt=\"\" src=\"https://i0.wp.com/www.insp.gov.bf/wp-content/uploads/2022/01/covidaffiche3.fw_-2.png?resize=372%2C534\"/></figure>\n<object data=\"https://insp.bf/wp-content/uploads/2022/01/VISUEL-COVID-3-1.pdf\" type=\"application/pdf\"></object><a href=\"https://insp.bf/wp-content/uploads/2022/01/VISUEL-COVID-3-1.pdf\">VISUEL-COVID-3-1</a><a href=\"https://insp.bf/wp-content/uploads/2022/01/VISUEL-COVID-3-1.pdf\">Télécharger</a>",
+      "images": [
+        {
+          "src": "https://i0.wp.com/www.insp.gov.bf/wp-content/uploads/2022/01/covidaffiche1-3.jpg?resize=750%2C532",
+          "alt": ""
+        },
+        {
+          "src": "https://i0.wp.com/www.insp.gov.bf/wp-content/uploads/2022/01/covidaffiche2.fw_-2.png?resize=355%2C481",
+          "alt": ""
+        },
+        {
+          "src": "https://i0.wp.com/www.insp.gov.bf/wp-content/uploads/2022/01/covidaffiche3.fw_-2.png?resize=372%2C534",
+          "alt": ""
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://insp.bf/wp-content/uploads/2022/01/VISUEL-PERSONNEL-DE-SANTE1-1.pdf",
+          "label": "VISUEL-PERSONNEL-DE-SANTE1-1"
+        },
+        {
+          "url": "https://insp.bf/wp-content/uploads/2022/01/VISUEL-1-1.pdf",
+          "label": "VISUEL-1-1"
+        },
+        {
+          "url": "https://insp.bf/wp-content/uploads/2022/01/VISUEL-COVID-3-1.pdf",
+          "label": "VISUEL-COVID-3-1"
+        }
+      ],
+      "videos": [],
+      "sourceFile": "Messages COVID-19 &#8211; INSTITUT NATIONAL DE SANTE PUBLIQUE  du BURKINA FASO.html"
+    },
+    "epidemies": {
+      "slug": "epidemies",
+      "title": "Epidémies",
+      "date": "2022-06-23T13:15:17+02:00",
+      "excerpt": "Voir l’article pour en savoir plus.",
+      "heroImage": "https://i0.wp.com/insp.bf/wp-content/uploads/2020/07/cropped-logonew.jpg?fit=512%2C512&ssl=1",
+      "content": "",
+      "images": [],
+      "documents": [],
+      "videos": [],
+      "sourceFile": "Epidémies &#8211; INSTITUT NATIONAL DE SANTE PUBLIQUE  du BURKINA FASO.html"
+    },
+    "presentation/271-2": {
+      "slug": "presentation/271-2",
+      "title": "Qui sommes nous ?",
+      "date": null,
+      "excerpt": "Qui sommes nous ? L’Institut National de Santé Publique du Burkina Faso est un établissement public de santé né par décret N° 2018-0618/PRES/PM/MINEFID/MS/MESRI du 18/06/2018. Il est doté d&r…",
+      "heroImage": "https://i0.wp.com/insp.bf/wp-content/uploads/2020/07/cropped-logonew.jpg?fit=512%2C512&ssl=1",
+      "content": "<p><strong>Qui sommes nous ?</strong></p>\n<p> L’Institut National de Santé Publique du Burkina Faso est un établissement public de santé né par décret N° 2018-0618/PRES/PM/MINEFID/MS/MESRI du 18/06/2018. Il est doté d’une personnalité morale et juridique avec une autonomie de gestion administrative et financière. L’INSP-BF regroupe en son sein six (6) directions techniques aux domaines de compétences spécifiques mais complémentaires. </p>\n\n<p>Après deux  départs, 1998 , puis en 2014 , l’année 2015 a permis la mise en place d’un groupe de travail (comité de préfiguration de l’INSP-BF) ce qui traduisait une volonté politique affichée. Ce groupe de travail a pu faire la réalisation d’une étude organisationnelle et économique de l’INSP-BF et l’élaboration de documents (note conceptuelle/argumentaire, projets de texte des décrets de création, statuts …)</p>",
+      "images": [],
+      "documents": [],
+      "videos": [],
+      "sourceFile": "Qui sommes nous ? &#8211; INSTITUT NATIONAL DE SANTE PUBLIQUE  du BURKINA FASO.html"
+    },
+    "newsletter-2": {
+      "slug": "newsletter-2",
+      "title": "NewsLetters",
+      "date": "2020-11-19T20:23:55+01:00",
+      "excerpt": "Retrouvez nos bulletins d’information NEWSLETTER-INSP_N°05_JAN-JUILL_-2020-2Télécharger « Nous vous invitons à vous abonnez à notre newsletter pour recevoir régulièrement les informations sur…",
+      "heroImage": "https://insp.bf/wp-content/uploads/2020/11/Newsletter-N°5-_-janvier-à-juillet-2020.jpg",
+      "content": "<p>Retrouvez nos bulletins d’information </p>\n<figure><img alt=\"\" src=\"https://i0.wp.com/www.insp.gov.bf/wp-content/uploads/2020/11/Newsletter-N°5-_-janvier-à-juillet-2020-1024x576.jpg?resize=166%2C93\"/></figure>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/12/NEWSLETTER-INSP_N°05_JAN-JUILL_-2020-2.pdf\"><strong>NEWSLETTER-INSP_N°05_JAN-JUILL_-2020-2</strong></a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/12/NEWSLETTER-INSP_N°05_JAN-JUILL_-2020-2.pdf\">Télécharger</a>\n<p><em>« Nous vous invitons à vous abonnez à notre newsletter pour recevoir régulièrement les informations sur notre institution</em>« </p>",
+      "images": [
+        {
+          "src": "https://i0.wp.com/www.insp.gov.bf/wp-content/uploads/2020/11/Newsletter-N°5-_-janvier-à-juillet-2020-1024x576.jpg?resize=166%2C93",
+          "alt": ""
+        }
+      ],
+      "documents": [
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/12/NEWSLETTER-INSP_N°05_JAN-JUILL_-2020-2.pdf",
+          "label": "NEWSLETTER-INSP_N°05_JAN-JUILL_-2020-2"
+        }
+      ],
+      "videos": [],
+      "sourceFile": "NewsLetters &#8211; INSTITUT NATIONAL DE SANTE PUBLIQUE  du BURKINA FASO.html"
+    },
+    "centres-de-recherches/centre-muraz": {
+      "slug": "centres-de-recherches/centre-muraz",
+      "title": "Le Centre MURAZ",
+      "date": null,
+      "excerpt": "« Devenir un pôle régional d’excellence et d’innovation dans la recherche, la formation et l’expertise au service de la santé publique. » Mission Le Centre MURAZ est l’une des six (06) direct…",
+      "heroImage": "https://i0.wp.com/insp.bf/wp-content/uploads/2020/07/cropped-logonew.jpg?fit=512%2C512&ssl=1",
+      "content": "<figure><img alt=\"\" src=\"https://i0.wp.com/insp.bf/wp-content/uploads/2020/07/logo_CM.fw_.png?resize=512%2C150&amp;ssl=1\"/></figure>\n<p><strong><em>« Devenir un pôle régional d’excellence et d’innovation dans la recherche, la formation et l’expertise au service de la santé publique. »</em></strong></p>\n\n<p><strong>Mission</strong></p>\n<p>Le Centre MURAZ est l’une des six (06) directions technique de l’INSP.  Les activités du Centre sont orientées par un Conseil Scientifique International. . Sa mission est de contribuer, essentiellement au Burkina Faso, à la prévention, au diagnostic et au contrôle des maladies transmissibles et non transmissibles par la promotion et la réalisation de la recherche en santé, la formation et l’expertise en biologie médicale, en sciences humaines et en santé publique.</p>\n<p><strong>Histoire du Centre Muraz </strong></p>\n<ul>\n<li>1939-1956 : Différentes phases de l’évolution;  le SGAMS devient le  Centre Muraz;  cette structure administrative devient le siège de l’<a href=\"http://www.asnom.org/fr/721_centre_muraz.html#c\">Organisation de coordination et de coopération pour la lutte contre les grandes endémies</a> (OCCGE) </li>\n<li>1998 fusion OCCDE avec l’OAAS</li>\n<li> 10 mai 2001:  érection du Centre Muraz en Etablissement Public de l’Etat à caractère Administratif (EPA). </li>\n<li>2006 : Transformation en Etablissement public de santé (EPS) </li>\n<li>2008: Adoption statuts particuliers </li>\n</ul>\n<p>Le Centre Muraz est situé à Bobo Dioulasso  à l’Ouest du Burkina Faso.</p>\n<p> L’INSP est l’organe de coordination des centres de recherche publics (centre Muraz, Centre de recherche en santé de Nouna, centre de recherche et de formation sur le paludisme). L’INSP envisage offrir :</p>\n<ul>\n<li>compétences de base clés pour chaque centre</li>\n<li>Eviter la duplication dans les activités de recherche</li>\n<li>Alignement sur les priorités de recherche </li>\n</ul>\n<p><strong>Contact</strong></p>\n<ul>\n<li><strong>Boite postal </strong>: BP 10278 Ouagadougou Zogona</li>\n<li><strong>Tél </strong>: +226 01 90 58 58</li>\n<li><strong>Email </strong>: secretariat.dg@insp.bf </li>\n</ul>\n<p><strong>Pour plus d’information visitez le site web du <a href=\"https://www.centre-muraz.bf\" rel=\"noreferrer noopener\" target=\"_blank\">CENTRE MURAZ</a></strong></p>",
+      "images": [
+        {
+          "src": "https://i0.wp.com/insp.bf/wp-content/uploads/2020/07/logo_CM.fw_.png?resize=512%2C150&ssl=1",
+          "alt": ""
+        }
+      ],
+      "documents": [],
+      "videos": [],
+      "sourceFile": "Le Centre MURAZ &#8211; INSTITUT NATIONAL DE SANTE PUBLIQUE  du BURKINA FASO.html"
+    },
+    "webinar-sur-la-sante-publique": {
+      "slug": "webinar-sur-la-sante-publique",
+      "title": "Webinar sur la santé publique",
+      "date": "2024-01-25T19:29:00+01:00",
+      "excerpt": "WEBINAR SUR LA PLACE DE LA SANTE PUBLIQUE DANS LE RENFORCEMENT D’UN SYSTEME DE SANTE RESILIENT",
+      "heroImage": "https://insp.bf/wp-content/uploads/2024/01/afiche-webinar-30012024.fw_.png",
+      "content": "<p><strong>L’INSP remercie tous les panélistes, le modérateur et les participants de ce 1er webinar de 2024 d’une longue série à venir . Accédez aux fichiers des Présentations « pdf » et la vidéo complète du webinar à partir des liens suivants :</strong></p>\n\n<p><strong><a href=\"https://youtu.be/YX8-dDfScME\" rel=\"noreferrer noopener\" target=\"_blank\">Vidéo webinar</a><a href=\"https://insp.bf/?page_id=3996\"> </a></strong>sur YouTube</p>\n\n<p><strong>Téléchargez </strong>l<strong>es 03 présentations</strong> </p>\n<object data=\"https://insp.bf/wp-content/uploads/2024/02/ordre-et-societe-savante-Webinar-sante-publique-27012024-1.pdf\" type=\"application/pdf\"></object><a href=\"https://insp.bf/wp-content/uploads/2024/02/ordre-et-societe-savante-Webinar-sante-publique-27012024-1.pdf\" rel=\"noreferrer noopener\" target=\"_blank\"><strong>Ordre-et-société-savante- Rôle dans la santé publique Pr CHARLEMAGNE OUEDRAOGO </strong></a><a href=\"https://insp.bf/wp-content/uploads/2024/02/ordre-et-societe-savante-Webinar-sante-publique-27012024-1.pdf\">Télécharger</a>\n\n<object data=\"https://insp.bf/wp-content/uploads/2024/02/PRESENTATION-Dr-MATHIAS-SOME-1.pdf\" type=\"application/pdf\"></object><a href=\"https://insp.bf/wp-content/uploads/2024/02/PRESENTATION-Dr-MATHIAS-SOME-1.pdf\" rel=\"noreferrer noopener\" target=\"_blank\"><strong>Qu’est ce que la santé publique ? Qu’est ce qu’une association de santé Dr-MATHIAS-SOME</strong></a><a href=\"https://insp.bf/wp-content/uploads/2024/02/PRESENTATION-Dr-MATHIAS-SOME-1.pdf\">Télécharger</a>\n\n<object data=\"https://insp.bf/wp-content/uploads/2024/02/Presentation_INSP_Herve-Hiern-30012024-1.pdf\" type=\"application/pdf\"></object><a href=\"https://insp.bf/wp-content/uploads/2024/02/Presentation_INSP_Herve-Hiern-30012024-1.pdf\" rel=\"noreferrer noopener\" target=\"_blank\"><strong>Présentation_INSP-Contribution dans la santé publique Pr HERVE-HIEN</strong></a><a href=\"https://insp.bf/wp-content/uploads/2024/02/Presentation_INSP_Herve-Hiern-30012024-1.pdf\">Télécharger</a>\n\n<figure><img alt=\"\" src=\"https://i0.wp.com/insp.bf/wp-content/uploads/2024/01/afiche-webinar-30012024.fw_.png?resize=457%2C644&amp;ssl=1\"/></figure>\n<p><strong>UN CADRE D’ECHANGE A NE PAS RATER…….WEBINAR SUR LA PLACE DE LA SANTE PUBLIQUE DANS LE RENFORCEMENT D’UN SYSTEME DE SANTE RESILIENT !!</strong>!</p>\n<p><strong>MODERATEUR</strong>: Pr Léon SAVADOGO</p>\n<p><strong>PANELISTES </strong>: </p>\n<p>Pr Charlemagne OUEDRAOGO </p>\n<p>Dr Mathias SOME</p>\n<p>Pr Hervé HIEN </p>\n<p><strong>Mardi 30 Janvier 2024 à 15H00mn</strong></p>\n<p>Pour participer : <a href=\"https://l.facebook.com/l.php?u=https%3A%2F%2Fbitly.ws%2F39X7F%3Ffbclid%3DIwAR0dd6Po_dgXJ713wa6TsGhKgaQlZ4b2Dyg6UN9kyuNZgVd8E6PCGCDJfrk&amp;h=AT10r0B085CvSyVh_g_Vwjz0EFVdahqgffUGinb8-5w45fuj28TmZwHuPZ3t1yg1fuDYgCChHoPWj0-BbZnqYm-xDKxSX43O9H_vQrqICPkehGq-GBbAw9TFdEcCB3UICJOp&amp;__tn__=-UK-R&amp;c[0]=AT0Gvo_eFl56InVP3r8fFoQiiTp19mWt9Drd8xhOXzYNNmA_hOt7eYo11qlKE0wHMUzPxtsCjCPcIv8tLNHcyQUqpyrzoFRxmvd2KWPlZdYU24sixAXrvjD6O23v84IOF6J0J5K_J5umrdGMfee5IxiYgy4zogizPsrZcDptkFshQkpYoZAAmb8-u6DRNRJjC_olmyBhx8i8WA\" rel=\"noreferrer noopener\" target=\"_blank\">https://bitly.ws/39X7F</a></p>\n\n<p><strong><strong>Source : SCRP/DG-INSP@JANVIER 2024</strong></strong></p>",
+      "images": [
+        {
+          "src": "https://i0.wp.com/insp.bf/wp-content/uploads/2024/01/afiche-webinar-30012024.fw_.png?resize=457%2C644&ssl=1",
+          "alt": ""
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://insp.bf/wp-content/uploads/2024/02/ordre-et-societe-savante-Webinar-sante-publique-27012024-1.pdf",
+          "label": "Ordre-et-société-savante- Rôle dans la santé publique Pr CHARLEMAGNE OUEDRAOGO"
+        },
+        {
+          "url": "https://insp.bf/wp-content/uploads/2024/02/PRESENTATION-Dr-MATHIAS-SOME-1.pdf",
+          "label": "Qu’est ce que la santé publique ? Qu’est ce qu’une association de santé Dr-MATHIAS-SOME"
+        },
+        {
+          "url": "https://insp.bf/wp-content/uploads/2024/02/Presentation_INSP_Herve-Hiern-30012024-1.pdf",
+          "label": "Présentation_INSP-Contribution dans la santé publique Pr HERVE-HIEN"
+        }
+      ],
+      "videos": [
+        "https://youtu.be/YX8-dDfScME"
+      ],
+      "sourceFile": "Webinar sur la santé publique &#8211; INSTITUT NATIONAL DE SANTE PUBLIQUE  du BURKINA FASO.html"
+    },
+    "ppm": {
+      "slug": "ppm",
+      "title": "PPM",
+      "date": null,
+      "excerpt": "PPM-2026-INSPTélécharger PLAN DE PASSATION DES MARCHES 2025 DE L’INSP PPM-2025-INSP_VF-PTélécharger PPM-MODIFIE-2024-INSPTélécharger Plan de Passation des Marchés 2024 de l’INSP PPM-202…",
+      "heroImage": "https://i0.wp.com/insp.bf/wp-content/uploads/2020/07/cropped-logonew.jpg?fit=512%2C512&ssl=1",
+      "content": "<object data=\"https://insp.bf/wp-content/uploads/2026/02/PPM-2026-INSP-2.pdf\" type=\"application/pdf\"></object><a href=\"https://insp.bf/wp-content/uploads/2026/02/PPM-2026-INSP-2.pdf\"><strong>PPM</strong>–<strong>2026</strong>–<strong>INSP</strong></a><a href=\"https://insp.bf/wp-content/uploads/2026/02/PPM-2026-INSP-2.pdf\">Télécharger</a>\n<p><strong>PLAN DE PASSATION DES MARCHES 2025 DE L’INSP</strong></p>\n<object data=\"https://insp.bf/wp-content/uploads/2025/02/PPM-2025-INSP_VF-P.pdf\" type=\"application/pdf\"></object><a href=\"https://insp.bf/wp-content/uploads/2025/02/PPM-2025-INSP_VF-P.pdf\">PPM-2025-INSP_VF-P</a><a href=\"https://insp.bf/wp-content/uploads/2025/02/PPM-2025-INSP_VF-P.pdf\">Télécharger</a>\n<object data=\"https://insp.bf/wp-content/uploads/2024/05/PPM-MODIFIE-2024-INSP.pdf\" type=\"application/pdf\"></object><a href=\"https://insp.bf/wp-content/uploads/2024/05/PPM-MODIFIE-2024-INSP.pdf\">PPM-MODIFIE-2024-INSP</a><a href=\"https://insp.bf/wp-content/uploads/2024/05/PPM-MODIFIE-2024-INSP.pdf\">Télécharger</a>\n\n\n<p><strong>Plan de Passation des Marchés 2024 de l’INSP</strong></p>\n<object data=\"https://insp.bf/wp-content/uploads/2024/02/PPM-2024-INSP_Corrige-P.pdf\" type=\"application/pdf\"></object><a href=\"https://insp.bf/wp-content/uploads/2024/02/PPM-2024-INSP_Corrige-P.pdf\"><strong>PPM-2024-INSP_Corrige-P</strong></a><a href=\"https://insp.bf/wp-content/uploads/2024/02/PPM-2024-INSP_Corrige-P.pdf\">Télécharger</a>\n<p><strong>Plan de Passation des Marchés 2023 de l’INSP</strong></p>\n<object data=\"https://insp.bf/wp-content/uploads/2023/01/PPM-2023_INSP_vf.pdf\" type=\"application/pdf\"></object><a href=\"https://insp.bf/wp-content/uploads/2023/01/PPM-2023_INSP_vf.pdf\"><strong>PPM 2023_INSP</strong></a><a href=\"https://insp.bf/wp-content/uploads/2023/01/PPM-2023_INSP_vf.pdf\">Télécharger</a>",
+      "images": [],
+      "documents": [
+        {
+          "url": "https://insp.bf/wp-content/uploads/2026/02/PPM-2026-INSP-2.pdf",
+          "label": "PPM–2026–INSP"
+        },
+        {
+          "url": "https://insp.bf/wp-content/uploads/2025/02/PPM-2025-INSP_VF-P.pdf",
+          "label": "PPM-2025-INSP_VF-P"
+        },
+        {
+          "url": "https://insp.bf/wp-content/uploads/2024/05/PPM-MODIFIE-2024-INSP.pdf",
+          "label": "PPM-MODIFIE-2024-INSP"
+        },
+        {
+          "url": "https://insp.bf/wp-content/uploads/2024/02/PPM-2024-INSP_Corrige-P.pdf",
+          "label": "PPM-2024-INSP_Corrige-P"
+        },
+        {
+          "url": "https://insp.bf/wp-content/uploads/2023/01/PPM-2023_INSP_vf.pdf",
+          "label": "PPM 2023_INSP"
+        }
+      ],
+      "videos": [],
+      "sourceFile": "PPM &#8211; INSTITUT NATIONAL DE SANTE PUBLIQUE  du BURKINA FASO.html"
+    },
+    "ictere-febrile": {
+      "slug": "ictere-febrile",
+      "title": "ICTERE FEBRILE",
+      "date": null,
+      "excerpt": "SitRep Ictère N° 39 Ictères CNTélécharger SitRep Ictère N° 35 Ictères CNTélécharger SitRep Ictère N° 29 Ictères CNTélécharger SitRep Ictère N° 27 Ictères CNTélécharger SitRep Ictère N° 26 Ictères C…",
+      "heroImage": "https://i0.wp.com/insp.bf/wp-content/uploads/2020/07/cropped-logonew.jpg?fit=512%2C512&ssl=1",
+      "content": "<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-39-Ictères-CN.pdf\">SitRep Ictère N° 39 Ictères CN</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-39-Ictères-CN.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-35-Ictères-CN.pdf\">SitRep Ictère N° 35 Ictères CN</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-35-Ictères-CN.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-29-Ictères-CN.pdf\">SitRep Ictère N° 29 Ictères CN</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-29-Ictères-CN.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-27-Ictères-CN.pdf\">SitRep Ictère N° 27 Ictères CN</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-27-Ictères-CN.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-26-Ictères-CN-1.pdf\">SitRep Ictère N° 26 Ictères CN-1</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-26-Ictères-CN-1.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-23-Ictères-CN-1.pdf\">SitRep Ictère N° 23 Ictères CN-1</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-23-Ictères-CN-1.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-22-Ictères-CN-1.pdf\">SitRep Ictère N° 22 Ictères CN-1</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-22-Ictères-CN-1.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-20-Ictères-CN-1.pdf\">SitRep Ictère N° 20 Ictères CN-1</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-20-Ictères-CN-1.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-19-Ictères-CN-1.pdf\">SitRep Ictère N° 19 Ictères CN-1</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-19-Ictères-CN-1.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-16-Ictères-CN-1.pdf\">SitRep Ictère N° 16 Ictères CN-1</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-16-Ictères-CN-1.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-13-Ictères-CN-1.pdf\">SitRep Ictère N° 13 Ictères CN-1</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-13-Ictères-CN-1.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-12-Ictères-CN-1.pdf\">SitRep Ictère N° 12 Ictères CN-1</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-12-Ictères-CN-1.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-9-Ictères-CN-1.pdf\">SitRep Ictère N° 9 Ictères CN-1</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-9-Ictères-CN-1.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-8-Ictères-CN-1.pdf\">SitRep Ictère N° 8 Ictères CN-1</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-8-Ictères-CN-1.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-6-Ictères-CN-1.pdf\">SitRep Ictère N° 6 Ictères CN-1</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-6-Ictères-CN-1.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-4-Ictères-CN-2-1.pdf\">SitRep-Ictère-N°-4-Ictères-CN-2-1</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-4-Ictères-CN-2-1.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-5-Ictères-CN-1.pdf\">SitRep-Ictère-N°-5-Ictères-CN-1</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-5-Ictères-CN-1.pdf\">Télécharger</a>",
+      "images": [],
+      "documents": [
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-39-Ictères-CN.pdf",
+          "label": "SitRep Ictère N° 39 Ictères CN"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-35-Ictères-CN.pdf",
+          "label": "SitRep Ictère N° 35 Ictères CN"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-29-Ictères-CN.pdf",
+          "label": "SitRep Ictère N° 29 Ictères CN"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-27-Ictères-CN.pdf",
+          "label": "SitRep Ictère N° 27 Ictères CN"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-26-Ictères-CN-1.pdf",
+          "label": "SitRep Ictère N° 26 Ictères CN-1"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-23-Ictères-CN-1.pdf",
+          "label": "SitRep Ictère N° 23 Ictères CN-1"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-22-Ictères-CN-1.pdf",
+          "label": "SitRep Ictère N° 22 Ictères CN-1"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-20-Ictères-CN-1.pdf",
+          "label": "SitRep Ictère N° 20 Ictères CN-1"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-19-Ictères-CN-1.pdf",
+          "label": "SitRep Ictère N° 19 Ictères CN-1"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-16-Ictères-CN-1.pdf",
+          "label": "SitRep Ictère N° 16 Ictères CN-1"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-13-Ictères-CN-1.pdf",
+          "label": "SitRep Ictère N° 13 Ictères CN-1"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-12-Ictères-CN-1.pdf",
+          "label": "SitRep Ictère N° 12 Ictères CN-1"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-9-Ictères-CN-1.pdf",
+          "label": "SitRep Ictère N° 9 Ictères CN-1"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-8-Ictères-CN-1.pdf",
+          "label": "SitRep Ictère N° 8 Ictères CN-1"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-6-Ictères-CN-1.pdf",
+          "label": "SitRep Ictère N° 6 Ictères CN-1"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-4-Ictères-CN-2-1.pdf",
+          "label": "SitRep-Ictère-N°-4-Ictères-CN-2-1"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/12/SitRep-Ictère-N°-5-Ictères-CN-1.pdf",
+          "label": "SitRep-Ictère-N°-5-Ictères-CN-1"
+        }
+      ],
+      "videos": [],
+      "sourceFile": "ICTERE FEBRILE &#8211; INSTITUT NATIONAL DE SANTE PUBLIQUE  du BURKINA FASO.html"
+    },
+    "plan-strategique-2": {
+      "slug": "plan-strategique-2",
+      "title": "Plans Stratégiques",
+      "date": null,
+      "excerpt": "Plans Stratégiques PLAN-STRATEGIQUE-INSP-2020-2024Télécharger ianphi-strategy-2021-2025Télécharger @SCRP/INSP 2021",
+      "heroImage": "https://i0.wp.com/insp.bf/wp-content/uploads/2020/07/cropped-logonew.jpg?fit=512%2C512&ssl=1",
+      "content": "<p>Plans Stratégiques</p>\n<object data=\"https://insp.bf/wp-content/uploads/2021/06/PLAN-STRATEGIQUE-INSP-2020-2024.pdf\" type=\"application/pdf\"></object><a href=\"https://insp.bf/wp-content/uploads/2021/06/PLAN-STRATEGIQUE-INSP-2020-2024.pdf\">PLAN-STRATEGIQUE-INSP-2020-2024</a><a href=\"https://insp.bf/wp-content/uploads/2021/06/PLAN-STRATEGIQUE-INSP-2020-2024.pdf\">Télécharger</a>\n<object data=\"https://insp.bf/wp-content/uploads/2021/06/ianphi-strategy-2021-2025.pdf\" type=\"application/pdf\"></object><a href=\"https://insp.bf/wp-content/uploads/2021/06/ianphi-strategy-2021-2025.pdf\">ianphi-strategy-2021-2025</a><a href=\"https://insp.bf/wp-content/uploads/2021/06/ianphi-strategy-2021-2025.pdf\">Télécharger</a>\n\n\n\n\n\n<p><strong>@SCRP/INSP 2021</strong></p>",
+      "images": [],
+      "documents": [
+        {
+          "url": "https://insp.bf/wp-content/uploads/2021/06/PLAN-STRATEGIQUE-INSP-2020-2024.pdf",
+          "label": "PLAN-STRATEGIQUE-INSP-2020-2024"
+        },
+        {
+          "url": "https://insp.bf/wp-content/uploads/2021/06/ianphi-strategy-2021-2025.pdf",
+          "label": "ianphi-strategy-2021-2025"
+        }
+      ],
+      "videos": [],
+      "sourceFile": "Plans Stratégiques &#8211; INSTITUT NATIONAL DE SANTE PUBLIQUE  du BURKINA FASO.html"
+    },
+    "depliants-flyers-prospectus": {
+      "slug": "depliants-flyers-prospectus",
+      "title": "Bulletins d’Information",
+      "date": "2019-07-26T04:41:22+02:00",
+      "excerpt": "Bulletin de Santé Publique Edition spéciale de l’année 2024 Télécharger le bulletin Spécial édition spéciale N°002 de 2024 2024: Semestriel d’informations de l’Institut National de Santé Publ…",
+      "heroImage": "https://i0.wp.com/insp.bf/wp-content/uploads/2024/08/BSP-Edition-speciale2024.fw_.png?fit=898%2C203&ssl=1",
+      "content": "<p><strong>Bulletin de Santé Publique Edition spéciale de l’année 2024</strong></p>\n\n<figure><img alt=\"\" src=\"https://i0.wp.com/insp.bf/wp-content/uploads/2024/08/BSP-Edition-speciale2024.fw_.png?resize=750%2C170&amp;ssl=1\"/></figure>\n<p><strong><a href=\"https://www.sante.gov.bf/fileadmin/user_upload/storages/fichiers/bulletin_sante_n__2_13-8-1.pdf\" rel=\"noreferrer noopener\" target=\"_blank\">Télécharger le bulletin Spécial édition spéciale N°002 de 2024</a> </strong></p>\n\n\n\n\n\n<p><strong>2024: Semestriel d’informations de l’Institut National de Santé Publique</strong></p>\n<figure><a href=\"https://drive.google.com/file/d/14BFDJjN7An0CQS0qncUVSy2Q3koLOM40/view?usp=drive_link\"><img alt=\"\" src=\"https://i0.wp.com/insp.bf/wp-content/uploads/2024/07/Page-garde-1er-semestre-2024.fw_.png?resize=750%2C461&amp;ssl=1\"/></a></figure>\n<p><a href=\"https://drive.google.com/file/d/14BFDJjN7An0CQS0qncUVSy2Q3koLOM40/view?usp=drive_link\" rel=\"noreferrer noopener\" target=\"_blank\">Téléchargez -N° 001 JANVIER – JUIN 2024 : Numéro unique</a></p>\n\n\n<p><strong><span>1er Bulletin National de Santé Publique</span></strong></p>\n<figure><a href=\"https://www.sante.gov.bf/bulletins\" rel=\"noreferrer noopener\" target=\"_blank\"><img alt=\"\" src=\"https://i0.wp.com/insp.bf/wp-content/uploads/2024/01/page_garde-entete.fw_.png?resize=679%2C234&amp;ssl=1\"/></a></figure>\n<p><a href=\"https://www.sante.gov.bf/bulletins\" rel=\"noreferrer noopener\" target=\"_blank\"><strong>Téléchargez</strong></a> </p>\n\n\n<p><strong>Bulletin d’information unique 2023 INSP</strong></p>\n<figure><a href=\"https://drive.google.com/file/d/1bUMIEduv7rICfbBKYIrWTkh8ZRqKlaQl/view?usp=sharing\"><img alt=\"\" src=\"https://i0.wp.com/insp.bf/wp-content/uploads/2023/12/Bulletin-unique-dinformations-2023-INSP.fw_.png?resize=683%2C512&amp;ssl=1\"/></a></figure>\n<p><a href=\"https://drive.google.com/file/d/1bUMIEduv7rICfbBKYIrWTkh8ZRqKlaQl/view?usp=sharing\" rel=\"noreferrer noopener\" target=\"_blank\"><strong>Télécharger </strong></a></p>\n\n\n<p><strong>Bulletin d’information du MSHP</strong></p>\n<a href=\"https://insp.bf/wp-content/uploads/2023/04/Infosanté-du-27-Mars-au-2-Avril-2023.pdf\"><strong>Infosanté-du-27-Mars-au-2-Avril-2023</strong></a><a href=\"https://insp.bf/wp-content/uploads/2023/04/Infosanté-du-27-Mars-au-2-Avril-2023.pdf\">Télécharger</a>\n\n<p><strong>Rapport de situation sur l’épidémie de la maladie à Coronavirus (COVID-19) au Burkina Faso</strong></p>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-102.pdf\">SitRep-N°-102</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-102.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-94-1.pdf\">SitRep-N°-94</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-94-1.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-90.pdf\">SitRep-N°-90</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-90.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-88.pdf\">SitRep-N°-88</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-88.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-86.pdf\">SitRep-N°-86</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-86.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-84.pdf\">SitRep-N°-84</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-84.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-79.pdf\">SitRep-N°-79</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-79.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-78.pdf\">SitRep-N°-78</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-78.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-75.pdf\">SitRep-N°-75</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-75.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-73.pdf\">SitRep-N°-73</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-73.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-72.pdf\">SitRep-N°-72</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-72.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-71.pdf\">SitRep-N°-71</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-71.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-70.pdf\">SitRep-N°-70</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-70.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-68.pdf\">SitRep-N°-68</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-68.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-67.pdf\">SitRep-N°-67</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-67.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-65.pdf\">SitRep-N°-65</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-65.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-63-1.pdf\">SitRep-N°-63-1</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-63-1.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-63.pdf\">SitRep-N°-63</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-63.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-59.pdf\">SitRep-N°-59</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-59.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-57.pdf\">SitRep-N°-57</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-57.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-56.pdf\">SitRep-N°-56</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-56.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-55.pdf\">SitRep-N°-55</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-55.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-53.pdf\">SitRep-N°-53</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-53.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-51.pdf\">SitRep-N°-51</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-51.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-50.pdf\">SitRep-N°-50</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-50.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-47.pdf\">SitRep-N°-47</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-47.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-46.pdf\">SitRep-N°-46</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-46.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-45.pdf\">SitRep-N°-45</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-45.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-41.pdf\">SitRep-N°-41</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-41.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-40.pdf\">SitRep-N°-40</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-40.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-38-1.pdf\">SitRep-N°-38</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-38-1.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-37.pdf\">SitRep-N°-37</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-37.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-36.pdf\">SitRep-N°-36</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-36.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-35.pdf\">SitRep-N°-35</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-35.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-34-2.pdf\">SitRep-N°-34</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-34-2.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-33-1.pdf\">SitRep-N°-33</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-33-1.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-32-1.pdf\">SitRep-N°-32</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-32-1.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2019/07/SITREP_N27_du_24_03_20.pdf\">SITREP_N°27</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2019/07/SITREP_N27_du_24_03_20.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/03/SitRep-N°-26-du-23_03_20.pdf\">SitRep N°26 </a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/03/SitRep-N°-26-du-23_03_20.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2019/07/SitRep-N25-du-22_03_2020.pdf\">SitRep N°25</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2019/07/SitRep-N25-du-22_03_2020.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2019/07/SITREP-N24-du-21_03_20.pdf\">SITREP N°24</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2019/07/SITREP-N24-du-21_03_20.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2019/07/SITREP-N23-du-20_03_20.pdf\">SITREP N°23</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2019/07/SITREP-N23-du-20_03_20.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/03/SITREP-N22-du-19_03_20.pdf\">SITREP-N°22</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/03/SITREP-N22-du-19_03_20.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/03/SITREP-N21-du-18_03_20.pdf\">SITREP-N°21</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/03/SITREP-N21-du-18_03_20.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/03/SITREP-N20-du-17_03_20.pdf\">SITREP-N°20</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/03/SITREP-N20-du-17_03_20.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/03/SITREP-N19-du-16_03_20.pdf\">SITREP-N°19</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/03/SITREP-N19-du-16_03_20.pdf\">Télécharger</a>\n<a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/03/SITREP-N18-du-15_03_20.pdf\">SITREP-N°18</a><a href=\"http://www.insp.gov.bf/wp-content/uploads/2020/03/SITREP-N18-du-15_03_20.pdf\">Télécharger</a>",
+      "images": [
+        {
+          "src": "https://i0.wp.com/insp.bf/wp-content/uploads/2024/08/BSP-Edition-speciale2024.fw_.png?resize=750%2C170&ssl=1",
+          "alt": ""
+        },
+        {
+          "src": "https://i0.wp.com/insp.bf/wp-content/uploads/2024/07/Page-garde-1er-semestre-2024.fw_.png?resize=750%2C461&ssl=1",
+          "alt": ""
+        },
+        {
+          "src": "https://i0.wp.com/insp.bf/wp-content/uploads/2024/01/page_garde-entete.fw_.png?resize=679%2C234&ssl=1",
+          "alt": ""
+        },
+        {
+          "src": "https://i0.wp.com/insp.bf/wp-content/uploads/2023/12/Bulletin-unique-dinformations-2023-INSP.fw_.png?resize=683%2C512&ssl=1",
+          "alt": ""
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://www.sante.gov.bf/fileadmin/user_upload/storages/fichiers/bulletin_sante_n__2_13-8-1.pdf",
+          "label": "Télécharger le bulletin Spécial édition spéciale N°002 de 2024"
+        },
+        {
+          "url": "https://insp.bf/wp-content/uploads/2023/04/Infosanté-du-27-Mars-au-2-Avril-2023.pdf",
+          "label": "Infosanté-du-27-Mars-au-2-Avril-2023"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-102.pdf",
+          "label": "SitRep-N°-102"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-94-1.pdf",
+          "label": "SitRep-N°-94"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-90.pdf",
+          "label": "SitRep-N°-90"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-88.pdf",
+          "label": "SitRep-N°-88"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-86.pdf",
+          "label": "SitRep-N°-86"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-84.pdf",
+          "label": "SitRep-N°-84"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-79.pdf",
+          "label": "SitRep-N°-79"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-78.pdf",
+          "label": "SitRep-N°-78"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-75.pdf",
+          "label": "SitRep-N°-75"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-73.pdf",
+          "label": "SitRep-N°-73"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-72.pdf",
+          "label": "SitRep-N°-72"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-71.pdf",
+          "label": "SitRep-N°-71"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-70.pdf",
+          "label": "SitRep-N°-70"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-68.pdf",
+          "label": "SitRep-N°-68"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-67.pdf",
+          "label": "SitRep-N°-67"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-65.pdf",
+          "label": "SitRep-N°-65"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-63-1.pdf",
+          "label": "SitRep-N°-63-1"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-63.pdf",
+          "label": "SitRep-N°-63"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-59.pdf",
+          "label": "SitRep-N°-59"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-57.pdf",
+          "label": "SitRep-N°-57"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-56.pdf",
+          "label": "SitRep-N°-56"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-55.pdf",
+          "label": "SitRep-N°-55"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-53.pdf",
+          "label": "SitRep-N°-53"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-51.pdf",
+          "label": "SitRep-N°-51"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-50.pdf",
+          "label": "SitRep-N°-50"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-47.pdf",
+          "label": "SitRep-N°-47"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-46.pdf",
+          "label": "SitRep-N°-46"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-45.pdf",
+          "label": "SitRep-N°-45"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-41.pdf",
+          "label": "SitRep-N°-41"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-40.pdf",
+          "label": "SitRep-N°-40"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-38-1.pdf",
+          "label": "SitRep-N°-38"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-37.pdf",
+          "label": "SitRep-N°-37"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-36.pdf",
+          "label": "SitRep-N°-36"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-35.pdf",
+          "label": "SitRep-N°-35"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-34-2.pdf",
+          "label": "SitRep-N°-34"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-33-1.pdf",
+          "label": "SitRep-N°-33"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/07/SitRep-N°-32-1.pdf",
+          "label": "SitRep-N°-32"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2019/07/SITREP_N27_du_24_03_20.pdf",
+          "label": "SITREP_N°27"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/03/SitRep-N°-26-du-23_03_20.pdf",
+          "label": "SitRep N°26"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2019/07/SitRep-N25-du-22_03_2020.pdf",
+          "label": "SitRep N°25"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2019/07/SITREP-N24-du-21_03_20.pdf",
+          "label": "SITREP N°24"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2019/07/SITREP-N23-du-20_03_20.pdf",
+          "label": "SITREP N°23"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/03/SITREP-N22-du-19_03_20.pdf",
+          "label": "SITREP-N°22"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/03/SITREP-N21-du-18_03_20.pdf",
+          "label": "SITREP-N°21"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/03/SITREP-N20-du-17_03_20.pdf",
+          "label": "SITREP-N°20"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/03/SITREP-N19-du-16_03_20.pdf",
+          "label": "SITREP-N°19"
+        },
+        {
+          "url": "http://www.insp.gov.bf/wp-content/uploads/2020/03/SITREP-N18-du-15_03_20.pdf",
+          "label": "SITREP-N°18"
+        }
+      ],
+      "videos": [],
+      "sourceFile": "Bulletins d&rsquo;Information &#8211; INSTITUT NATIONAL DE SANTE PUBLIQUE  du BURKINA FASO.html"
+    },
+    "centres-de-recherche": {
+      "slug": "centres-de-recherche",
+      "title": "Centres de Recherche",
+      "date": null,
+      "excerpt": "Au nombre de six (06) les centres de recherches de l’INSP-BF sont des structures métiers. Le Centre MurazLe Centre de Recherche en Santé de Nounale Centre National de Recherche et de Formatio…",
+      "heroImage": "https://i0.wp.com/insp.bf/wp-content/uploads/2020/07/cropped-logonew.jpg?fit=512%2C512&ssl=1",
+      "content": "<p>Au nombre de six (06) les centres de recherches de l’INSP-BF sont des structures métiers. </p>\n<ol><li><a href=\"http://www.centre-muraz.bf\"> Le Centre Muraz</a></li><li><a href=\"http://www.crsn-nouna.bf\">Le Centre de Recherche en Santé de Nouna</a></li><li><a href=\"http://www.cnrfp.bf\">le Centre National de Recherche et de Formation sur le Paludisme</a></li></ol>",
+      "images": [],
+      "documents": [],
+      "videos": [],
+      "sourceFile": "Centres de Recherche &#8211; INSTITUT NATIONAL DE SANTE PUBLIQUE  du BURKINA FASO.html"
+    },
+    "bulletins-epidemiologique-du-burkina-faso": {
+      "slug": "bulletins-epidemiologique-du-burkina-faso",
+      "title": "Bulletins Epidemiologiques du Burkina Faso",
+      "date": "2022-06-23T13:05:05+02:00",
+      "excerpt": "Bulletins Epidemiologiques Hebdomadaires Situation-Epidémiologique-S21_2022Télécharger Situation-Epidémiologique-S22_2022-1Télécharger Situation-Epidémiologique-S23_2022Télécharger Situation-Epi…",
+      "heroImage": "https://i0.wp.com/insp.bf/wp-content/uploads/2020/07/cropped-logonew.jpg?fit=512%2C512&ssl=1",
+      "content": "<p>Bulletins Epidemiologiques Hebdomadaires</p>\n<object data=\"https://insp.bf/wp-content/uploads/2022/06/Situation-Epidémiologique-S21_2022.pdf\" type=\"application/pdf\"></object><a href=\"https://insp.bf/wp-content/uploads/2022/06/Situation-Epidémiologique-S21_2022.pdf\" rel=\"noreferrer noopener\" target=\"_blank\">Situation-Epidémiologique-S21_2022</a><a href=\"https://insp.bf/wp-content/uploads/2022/06/Situation-Epidémiologique-S21_2022.pdf\">Télécharger</a>\n<object data=\"https://insp.bf/wp-content/uploads/2022/06/Situation-Epidémiologique-S22_2022-1.pdf\" type=\"application/pdf\"></object><a href=\"https://insp.bf/wp-content/uploads/2022/06/Situation-Epidémiologique-S22_2022-1.pdf\" rel=\"noreferrer noopener\" target=\"_blank\">Situation-Epidémiologique-S22_2022-1</a><a href=\"https://insp.bf/wp-content/uploads/2022/06/Situation-Epidémiologique-S22_2022-1.pdf\">Télécharger</a>\n<object data=\"https://insp.bf/wp-content/uploads/2022/06/Situation-Epidémiologique-S23_2022.pdf\" type=\"application/pdf\"></object><a href=\"https://insp.bf/wp-content/uploads/2022/06/Situation-Epidémiologique-S23_2022.pdf\" rel=\"noreferrer noopener\" target=\"_blank\">Situation-Epidémiologique-S23_2022</a><a href=\"https://insp.bf/wp-content/uploads/2022/06/Situation-Epidémiologique-S23_2022.pdf\">Télécharger</a>\n<object data=\"https://insp.bf/wp-content/uploads/2022/06/Situation-Epidémiologique-S24_2022.pdf\" type=\"application/pdf\"></object><a href=\"https://insp.bf/wp-content/uploads/2022/06/Situation-Epidémiologique-S24_2022.pdf\" rel=\"noreferrer noopener\" target=\"_blank\">Situation-Epidémiologique-S24_2022</a><a href=\"https://insp.bf/wp-content/uploads/2022/06/Situation-Epidémiologique-S24_2022.pdf\">Télécharger</a>",
+      "images": [],
+      "documents": [
+        {
+          "url": "https://insp.bf/wp-content/uploads/2022/06/Situation-Epidémiologique-S21_2022.pdf",
+          "label": "Situation-Epidémiologique-S21_2022"
+        },
+        {
+          "url": "https://insp.bf/wp-content/uploads/2022/06/Situation-Epidémiologique-S22_2022-1.pdf",
+          "label": "Situation-Epidémiologique-S22_2022-1"
+        },
+        {
+          "url": "https://insp.bf/wp-content/uploads/2022/06/Situation-Epidémiologique-S23_2022.pdf",
+          "label": "Situation-Epidémiologique-S23_2022"
+        },
+        {
+          "url": "https://insp.bf/wp-content/uploads/2022/06/Situation-Epidémiologique-S24_2022.pdf",
+          "label": "Situation-Epidémiologique-S24_2022"
+        }
+      ],
+      "videos": [],
+      "sourceFile": "Bulletins Epidemiologiques du Burkina Faso &#8211; INSTITUT NATIONAL DE SANTE PUBLIQUE  du BURKINA FASO.html"
+    },
+    "presentation/organisation": {
+      "slug": "presentation/organisation",
+      "title": "Organisation",
+      "date": null,
+      "excerpt": "L’organisation de l’Institut national de santé publique L’INSP-BF est un institut Multi-organismes qui comprend deux types de structures : les structures « métiers » qui sont cons…",
+      "heroImage": "https://i0.wp.com/insp.bf/wp-content/uploads/2020/07/cropped-logonew.jpg?fit=512%2C512&ssl=1",
+      "content": "<p>L’organisation de l’Institut national de santé publique</p>\n<p>L’INSP-BF  est un institut Multi-organismes qui comprend deux types de structures  :  </p>\n<p><strong>les structures « métiers »</strong> qui sont constituées d’une part des centres dont la fusion a donné lieu à I’INSP et d’autre part par des entités scientifiques nouvelles.</p>\n<p><strong>les structures « supports »</strong> qui sont faites d’organes consultatifs et de management ainsi que de secrétariats et de directions qui assurent la coordination technique, la gestion administrative et financière ainsi que l’animation scientifique.</p>\n<p><strong>Les organes d’administration et de gestion</strong> sont : le Conseil d’administration, la Direction générale.</p>\n<p><strong>Les organes consultatifs</strong> sont : le Conseil scientifique et technique (CST), le Conseil de direction, le Comité d’éthique institutionnel, le Comité d’hygiène, de sécurité et de santé au travail, le Conseil de discipline, le Comité technique paritaire. </p>\n<p>La direction générale de I’INSP comprend : </p>\n<ul><li><strong>le cabinet ;</strong></li><li><strong> le secrétariat général ; </strong></li><li><strong> la direction scientifique ; </strong></li><li><strong> les directions et services rattachés a la direction générale</strong><ul><li> la direction des marchés publics ;</li><li> la direction du contrôle interne ; </li><li> l’agence comptable. </li></ul></li><li> <strong>Des directions administratives </strong><ul><li> la direction de l’administration et des finances (DAF) ; </li><li> la direction des ressources humaines (DRH) ; </li><li> la direction  de la comptabilité  des  matières  et  de la  logistique  (DCML);</li><li>   la direction  des systèmes d’information  de l’évaluation,  et de la qualité (DSIEQ); </li></ul></li><li> <strong>Des directions techniques</strong> <ul><li>la Direction du Centre MURAZ (CM)</li><li>la Direction du Centre National de Recherche et de Formation sur le Paludisme (CNRFP) ;</li><li>la Direction du Centre de Recherche en Sante de Nouna (CRSN) ;</li><li>la Direction du Centre des Opérations de Réponse aux Urgences  Sanitaires (CORUS) ; </li><li>la  Direction   de   I’Observatoire   National   de   la  Sante  de   la Population (ONSP) ;</li><li>la Direction du Laboratoire Central de Référence (LCR).</li></ul></li></ul>",
+      "images": [],
+      "documents": [],
+      "videos": [],
+      "sourceFile": "Organisation &#8211; INSTITUT NATIONAL DE SANTE PUBLIQUE  du BURKINA FASO.html"
+    },
+    "memoires-et-theses": {
+      "slug": "memoires-et-theses",
+      "title": "Mémoires et Thèses",
+      "date": "2020-11-20T12:58:07+01:00",
+      "excerpt": "Voir l’article pour en savoir plus.",
+      "heroImage": "https://i0.wp.com/insp.bf/wp-content/uploads/2020/07/cropped-logonew.jpg?fit=512%2C512&ssl=1",
+      "content": "",
+      "images": [],
+      "documents": [],
+      "videos": [],
+      "sourceFile": "Mémoires et Thèses &#8211; INSTITUT NATIONAL DE SANTE PUBLIQUE  du BURKINA FASO.html"
+    },
+    "centre-de-documentation": {
+      "slug": "centre-de-documentation",
+      "title": "Centre de documentation",
+      "date": null,
+      "excerpt": "PRESENTATION Le Service de documentation de l’INSP dispose d’une bibliothèque centrale au siège, à la direction générale, et des annexes dans les directions techniques (Centre MURAZ, Centre de rech…",
+      "heroImage": "https://i0.wp.com/insp.bf/wp-content/uploads/2020/07/cropped-logonew.jpg?fit=512%2C512&ssl=1",
+      "content": "<p><strong>PRESENTATION</strong></p>\n<p><strong>Le Service de documentation</strong> de l’INSP dispose d’une bibliothèque centrale au siège, à la direction générale, et des annexes dans les directions techniques (Centre MURAZ, Centre de recherche en santé de Nouna, Centre Nationale de Formation sur le Paludisme, Centre des Opérations aux Urgences Réponses Sanitaire) possédant chacun d’un fonds documentaire composé de vastes collections de périodiques et d’ouvrages. </p>\n<p><strong>L’accès est libre et gratuit</strong>. Les heures d’ouverture vont de lundi au vendredi, de 08 heures à 15 heures.</p>\n<p><strong>Fonds documentaire</strong></p>\n<p>Il est composé d’une vaste collection de documents spécialisés dans le domaine de la santé. On y trouve des documents de deux formats: </p>\n<p><strong>Papiers et numériques</strong></p>\n<ul>\n<li>Livres,</li>\n<li>Thèses,</li>\n<li>Mémoires,</li>\n<li>Rapports (institutionnels, études, …),</li>\n<li>Périodiques (journaux, bulletins, revues, newsletter, mensuel d’information, …).</li>\n</ul>\n<p> Cette catégorie de documents est consultable sur place au sein du Service de documentation du siège ou dans les directions techniques </p>\n<p><strong>Electroniques</strong></p>\n<ul>\n<li>Articles scientifiques,</li>\n<li>Thèses, </li>\n<li>Mémoires,</li>\n<li>Rapports scientifiques.</li>\n</ul>\n<p>Cette catégorie est accessible en ligne à partir des revues scientifiques, du site web des directions techniques ainsi que sur la plateforme de dépôt Institutionnel de l’INSP.</p>\n<p><strong>NB </strong>: La documentation électronique pour une plus grande visibilité au plan international. </p>\n<p><strong>Service offert</strong></p>\n<ul>\n<li>Consultation des documents,</li>\n<li>Appui à la recherche documentaire,</li>\n<li>Formation à la recherche documentaire,</li>\n<li>Prêt inter-bibliothèque,</li>\n<li>Consultation sur place,</li>\n<li>Accueil de stagiaire.</li>\n</ul>\n<p><strong>Public cible</strong></p>\n<p>Le service de documentation de l’INSP est ouvert aux :</p>\n<ul>\n<li>personnel de l’INSP,</li>\n<li>stagiaires de l’INSP,</li>\n<li>partenaires de l’INSP,</li>\n<li>corps enseignants </li>\n<li>chercheurs,</li>\n<li>agents de santé,</li>\n<li>étudiants, </li>\n<li> autres. </li>\n</ul>\n<p><strong>Base de données bibliographiques</strong></p>\n<p>Généré par le logiciel de gestion intégré de bibliothèque, la base de données de l’INSP est en plein développement et sera déployer durant la phase d’opérationnalisation de l’institut.</p>\n<p><strong>La bibliothèque centrale à la DG de l’INSP et ses annexes des différentes directions techniques sont en plein développement</strong> </p>\n<p><em><a href=\"https://dicames.online/jspui/handle/20.500.12177/3680\" rel=\"noreferrer noopener\" target=\"_blank\"><strong>Cliquez ici pour accéder au Dépôt Institutionnel de l’institut </strong></a></em></p>\n<p><strong>Quelques publications</strong></p>\n<p><strong>Nutrition Clinique et Métabolisme</strong> – Volume 31, Issue 3, Pages e5-e6, 167-258 – Statut nutritionnel et profil alimentaire des adultes vivant avec le VIH suivis à l’hôpital du district de Dô au Burkina Faso<a href=\"https://doi.org/10.1016/j.nupar.2017.01.002\" rel=\"noreferrer noopener\" target=\"_blank\">https://doi.org/10.1016/j.nupar.2017.01.002</a></p>\n<p><strong>Journal of Medical   Entomology</strong>   KDR Mutation, a Genetic Marker to Assess   Events of Introgression Between the Molecular M and S Forms of <em>Anopheles gambiae</em> (Diptera: Culicidae) in the Tropical   Savannah Area of West Africa      <a href=\"https://doi.org/10.1603/0022-2585-40.2.195\">https://doi.org/10.1603/0022-2585-40.2.195</a></p>\n<p><a href=\"http://www.sciencedirect.com/science/journal/15671348\"><strong>Infection, Genetics and Evolution</strong></a><a href=\"http://www.sciencedirect.com/science/journal/15671348/3/4\">Volume   3, Issue 4</a>, November   2003, Pages 287-292       Relationship   between the <em>Pfcrt</em> T76 and the <em>Pfmdr-1</em> Y86   mutations in <em>Plasmodium falciparum</em> and in vitro/in vivo   chloroquine resistance in Burkina Faso, West Africa   <a href=\"https://doi.org/10.1016/j.meegid.2003.08.002\" rel=\"noreferrer noopener\" target=\"_blank\">https://doi.org/10.1016/j.meegid.2003.08.002</a></p>\n<p><a href=\"http://www.sciencedirect.com/science/journal/01406736/376/9748\">Volume 376, Issue 9748</a>, 9–15 October 2010,   Pages 1223-1224   Estimates of   mortality in children younger than 5 years for Burkina Faso   <a href=\"https://doi.org/10.1016/S0140-6736(10)61880-6\">https://doi.org/10.1016/S0140-6736(10)61880-6</a></p>",
+      "images": [],
+      "documents": [],
+      "videos": [],
+      "sourceFile": "Centre de documentation &#8211; INSTITUT NATIONAL DE SANTE PUBLIQUE  du BURKINA FASO.html"
+    },
+    "projets": {
+      "slug": "projets",
+      "title": "Programmes scientifiques",
+      "date": null,
+      "excerpt": "La programmation opérationnelle scientifique au sein de l’INSP-BF se fait sous forme de programmes de recherche qui sont hébergés dans les six (06) centres de recherches. (Le Centre Muraz, Le…",
+      "heroImage": "https://i0.wp.com/insp.bf/wp-content/uploads/2020/07/cropped-logonew.jpg?fit=512%2C512&ssl=1",
+      "content": "<p>La programmation opérationnelle scientifique au sein de l’INSP-BF se fait sous forme de programmes de recherche qui sont hébergés dans les six (06) centres de recherches. (Le Centre Muraz, Le Centre de Recherche en Santé de Nouna, le Centre National de Recherche et de Formation sur le Paludisme, Le Centre des Opérations de Réponses aux Urgences Sanitaires, Le Laboratoire Central de Référence, L’Observatoire National de la Santé de la Population)</p>\n<p><strong>L’organisation et le fonctionnement des programmes scientifiques sont faits sous forme de projets et d’équipes de recherche dans les centres de recherches.</strong>                                        A l’INSP-BF  il est mis en oeuvre neuf (09) programmes de recherche cohérents avec les programmes de santé du Ministère de la Santé. On dénombre : <strong>O4 Programmes de recherche au CM; 03 Programmes au CRSN; 02 Programmes au CNRFP;</strong></p>\n<p><strong>Le centre MURAZ </strong>développe  <strong>quatre (04) programmes de recherche</strong>  que sont : </p>\n<ol><li>Le programme de recherche sur les <strong>maladies infectieuses</strong> ;<ul><li>VIH – IST – Hépatites</li><li>Tuberculoses</li><li>Hémovigilance</li></ul></li><li> Le programme  de recherche  sur <strong>les maladies a potentiel épidémique ; </strong><ul><li>FHV, Rougeole, Cholera, Meningite</li></ul></li><li>Le programme  de recherche sur <strong>la Sante sexuelle et reproductible </strong> <ul><li>Santé Maternelle</li><li>Santé Infantile</li><li>Planification Familiale</li><li>Santé des Adolescents</li><li>Santé des personnes âgées</li></ul></li><li>Le programme de recherche  sur <strong>l’analyse des politiques  et la gestion des  systèmes  de sante et capitalisation</strong><ul><li>Qualités des Laboratoires</li><li>Qualité et sécurité des patients</li><li>Accès aux soins</li><li>Gratuité des soins</li><li>Gouvernance en santé</li></ul></li></ol>\n<p>Le <strong>Centre de recherche en sante de Nouna (CRSN)</strong> développe  <strong>trois (03)</strong> <strong>programmes de recherche</strong>  que sont : </p>\n<ol><li> Le      programme      de      recherche      sur      <strong>les     maladies       chroniques,  environnement et changement climatique</strong> ; <ul><li>Cancer</li><li>Registre du cancer</li><li>Climat et cancer</li><li>Climat et système de santé</li><li>Climat et maladies à potentiel épidémiologique</li></ul></li><li> Le      programme      de      recherche      sur  les  <strong>Systèmes d’Information</strong><ul><li>SSDS</li><li>TIC et Santé</li></ul></li><li>Le programme de recherche  sur la promotion  et la prévention  de la santé<ul><li>Santé Communautaire</li><li>Immunologie</li><li>Accidentologie</li></ul></li></ol>\n<p><strong>Le Centre National de Recherche  de Formation sur le Paludisme  (CNRFP) développe deux (02) programmes de recherche  que sont :</strong></p>\n<ol><li>Le  programme de  recherche   sur  les  maladies  parasitaires   et  des vecteurs ; <ul><li>Paludisme</li><li>Vecteurs</li><li>Autres Parasites</li></ul></li><li>Le programme de recherche sur les plantes et l’innovation.<ul><li>Plantes et l’innovation</li></ul></li></ol>",
+      "images": [],
+      "documents": [],
+      "videos": [],
+      "sourceFile": "Programmes scientifiques &#8211; INSTITUT NATIONAL DE SANTE PUBLIQUE  du BURKINA FASO.html"
+    },
+    "depot-institutionnel": {
+      "slug": "depot-institutionnel",
+      "title": "Dépôt Institutionnel",
+      "date": null,
+      "excerpt": "L’INSP dispose d’un dépôt institutionnel en ligne. Le Dépôt Institutionnel est constitué des documents suivants : les articles,les ouvrages ou les chapitres d’ouvrages,les communi…",
+      "heroImage": "https://insp.bf/wp-content/uploads/2022/01/articl_es_scienti_fiques2021.fw_.png",
+      "content": "<p><strong>L’INSP dispose d’un <a href=\"https://dicames.online/jspui/handle/20.500.12177/3680\" rel=\"noreferrer noopener\" target=\"_blank\">dépôt institutionnel </a>en ligne.</strong></p>\n<figure><img alt=\"\" src=\"https://i0.wp.com/www.insp.gov.bf/wp-content/uploads/2022/01/articl_es_scienti_fiques2021.fw_.png?resize=375%2C375\"/></figure>\n<p>Le Dépôt Institutionnel est constitué des documents suivants : </p>\n<ul><li>les articles,</li><li>les ouvrages ou les chapitres d’ouvrages,</li><li>les communications ou les actes de congrès,</li><li>les documents techniques et les documents de recherche,</li><li>les textes juridiques,</li><li>les rapports d’activités, d’études, de mission ou d’expertise,</li><li>les thèses,   les mémoires,</li><li>les rapports de stage.</li></ul>",
+      "images": [
+        {
+          "src": "https://i0.wp.com/www.insp.gov.bf/wp-content/uploads/2022/01/articl_es_scienti_fiques2021.fw_.png?resize=375%2C375",
+          "alt": ""
+        }
+      ],
+      "documents": [],
+      "videos": [],
+      "sourceFile": "Dépôt Institutionnel &#8211; INSTITUT NATIONAL DE SANTE PUBLIQUE  du BURKINA FASO.html"
+    },
+    "nos-structures-metiers/crsn": {
+      "slug": "nos-structures-metiers/crsn",
+      "title": "Centre de Recherche en Santé de Nouna",
+      "date": null,
+      "excerpt": "« Faire de la recherche pour la santé un outil efficace de lutte contre la pauvreté « . Mission La mission de recherche pour la santé humaine est la priorité du CRSN.  Elle ambitionne de faire…",
+      "heroImage": "https://i0.wp.com/insp.bf/wp-content/uploads/2020/07/cropped-logonew.jpg?fit=512%2C512&ssl=1",
+      "content": "<figure><img alt=\"\" src=\"https://i0.wp.com/insp.bf/wp-content/uploads/2020/08/logo-CRSN.png?resize=170%2C112&amp;ssl=1\"/></figure>\n<p><strong><em>« Faire de la recherche pour la santé un outil efficace de lutte contre la pauvreté « .</em></strong></p>\n\n<p><strong>Mission</strong></p>\n<p>La mission de recherche pour la santé humaine est la priorité du CRSN.   Elle ambitionne de faire de la recherche un moteur de développement et de bien-être pour les populations. </p>\n<p>Pour remplir sa noble mission de recherche pour la santé humaine, le CRSN a opté pour une démarche holistique en s´appuyant sur quatre principaux piliers :</p>\n<ul>\n<li>– Axe de recherche « Biologique »</li>\n<li>– Axe de recherche « Santé publique et système de santé »</li>\n<li>– Axe de recherche « Clinique »</li>\n<li>– Axe de recherche « Environnement et santé »</li>\n</ul>\n<p> Les principales missions du CRSN telles que définies par le Ministère de la santé sont :</p>\n<ul>\n<li>Fournir l’évidence pour de meilleures politiques/interventions de santé pour l’amélioration du système de santé,</li>\n<li>Créer sur place des capacités de formation formelle,</li>\n<li>Contribuer au renforcement des capacités de recherche en santé à travers le développement d’un environnement convenable à la recherche, la formation et les prestations de service,</li>\n<li>Générer de nouvelles connaissances et des informations pertinentes pour la politique sanitaire et la planification,</li>\n<li>Contribuer au développement des compétences pour la recherche en santé par la promotion d’un environnement adapté à la recherche, à la formation et aux prestations de services. </li>\n</ul>\n<p> L’INSP joue le rôle d’organe de coordination des centres de recherche publics (centre Muraz, Centre de recherche en santé de Nouna, centre de recherche et de formation sur le paludisme). Elle offre des :</p>\n<ul>\n<li> compétences de base clés pour chaque centre</li>\n<li>Eviter la duplication dans les activités de recherche</li>\n<li>Alignement sur les priorités de recherche </li>\n</ul>\n<p><strong>Historique</strong></p>\n<ul>\n<li>1992 :   collaboration avec les partenaires Allemands de l’Institut de Santé Publique de l’Université de Heidelberg sous la dénomination PRAPASS qui est le projet de recherche action pour l’amélioration des soins de santé qui couvrait la Grande Kossi dont les limites s’étendaient du Sourou actuel aux Banwa ( Nord-Ouest du Burkina Faso à 300 km de la capitale Ouagadougou )</li>\n<li>1999 :   transformation institutionnelle du PRAPASS en Centre de Recherche en Santé de Nouna. </li>\n</ul>\n<p> Les principales missions du CRSN telles que définies par le Ministère de la santé sont :</p>\n<p> L’INSP joue le rôle d’organe de coordination des centres de recherche publics (centre Muraz, Centre de recherche en santé de Nouna, centre de recherche et de formation sur le paludisme). A ce titre elle offre :<br/>– compétences de base clés pour chaque centre<br/>– Eviter la duplication dans les activités de recherche<br/>– Alignement sur les priorités de recherche </p>\n<p>Pour plus de détails visitez le site web du <a href=\"http://www.crsn-nouna.bf\">Centre de recherche en santé de Nouna</a></p>",
+      "images": [
+        {
+          "src": "https://i0.wp.com/insp.bf/wp-content/uploads/2020/08/logo-CRSN.png?resize=170%2C112&ssl=1",
+          "alt": ""
+        }
+      ],
+      "documents": [],
+      "videos": [],
+      "sourceFile": "Centre de Recherche en Santé de Nouna &#8211; INSTITUT NATIONAL DE SANTE PUBLIQUE  du BURKINA FASO.html"
+    },
+    "administration": {
+      "slug": "administration",
+      "title": "Administration/Chercheurs",
+      "date": "2022-09-16T17:46:11+02:00",
+      "excerpt": "BIO-EXPRESS-DR-SANON-CLARISSE-DCITélécharger BIO-EXPRESS-SANON BRAHIMA-DGCRE-INSPTélécharger BIO-EXPRESS-OUEDRAOGO-ALI DMP-INSPTélécharger",
+      "heroImage": "https://i0.wp.com/insp.bf/wp-content/uploads/2020/07/cropped-logonew.jpg?fit=512%2C512&ssl=1",
+      "content": "<a href=\"https://insp.bf/wp-content/uploads/2022/09/BIO-EXPRESS-DR-SANON-CLARISSE-DCI-INSP-1.pdf\">BIO-EXPRESS-DR-SANON-CLARISSE-DCI</a><a href=\"https://insp.bf/wp-content/uploads/2022/09/BIO-EXPRESS-DR-SANON-CLARISSE-DCI-INSP-1.pdf\">Télécharger</a>\n<a href=\"https://insp.bf/wp-content/uploads/2022/09/Bio-Express-DGCRE-INSP-FINAL-1.pdf\">BIO-EXPRESS-SANON BRAHIMA-DGCRE-INSP</a><a href=\"https://insp.bf/wp-content/uploads/2022/09/Bio-Express-DGCRE-INSP-FINAL-1.pdf\">Télécharger</a>\n<a href=\"https://insp.bf/wp-content/uploads/2022/09/BIO-EXPRESS-DMP-FINAL-1.pdf\">BIO-EXPRESS-OUEDRAOGO-ALI DMP-INSP</a><a href=\"https://insp.bf/wp-content/uploads/2022/09/BIO-EXPRESS-DMP-FINAL-1.pdf\">Télécharger</a>",
+      "images": [],
+      "documents": [
+        {
+          "url": "https://insp.bf/wp-content/uploads/2022/09/BIO-EXPRESS-DR-SANON-CLARISSE-DCI-INSP-1.pdf",
+          "label": "BIO-EXPRESS-DR-SANON-CLARISSE-DCI"
+        },
+        {
+          "url": "https://insp.bf/wp-content/uploads/2022/09/Bio-Express-DGCRE-INSP-FINAL-1.pdf",
+          "label": "BIO-EXPRESS-SANON BRAHIMA-DGCRE-INSP"
+        },
+        {
+          "url": "https://insp.bf/wp-content/uploads/2022/09/BIO-EXPRESS-DMP-FINAL-1.pdf",
+          "label": "BIO-EXPRESS-OUEDRAOGO-ALI DMP-INSP"
+        }
+      ],
+      "videos": [],
+      "sourceFile": "Administration:Chercheurs &#8211; INSTITUT NATIONAL DE SANTE PUBLIQUE  du BURKINA FASO.html"
+    }
+  },
+  "news": [
+    {
+      "id": "news-1",
+      "title": "𝐂A 𝐃𝐄 𝐋’𝐈𝐍𝐒P : 𝐔𝐍𝐄 𝐕𝐈𝐒𝐈𝐎𝐍 𝐒𝐓𝐑𝐀𝐓𝐄́𝐆𝐈𝐐𝐔𝐄 𝐏𝐎𝐔𝐑 𝟐𝟎𝟐𝟓.",
+      "excerpt": "𝖫𝖾 𝖢𝗈𝗇𝗌𝖾𝗂𝗅 𝖽’𝖠𝖽𝗆𝗂𝗇𝗂𝗌𝗍𝗋𝖺𝗍𝗂𝗈𝗇 𝖽𝖾 𝗅’𝖨𝗇𝗌𝗍𝗂𝗍𝗎𝗍 𝖭𝖺𝗍𝗂𝗈𝗇𝖺𝗅 𝖽𝖾 𝖲𝖺𝗇𝗍𝖾́ 𝖯𝗎𝖻𝗅𝗂𝗊𝗎𝖾 (𝖨𝖭𝖲𝖯) 𝗌’𝖾𝗌𝗍 𝗋𝖾́𝗎𝗇𝗂 𝖼𝖾 𝗏𝖾𝗇𝖽𝗋𝖾𝖽𝗂 𝟣𝟥 𝖽𝖾́𝖼𝖾𝗆𝖻𝗋𝖾 𝟤𝟢𝟤𝟦 𝖺̀ 𝖮𝗎𝖺𝗀𝖺𝖽𝗈𝗎𝗀𝗈𝗎 𝗉𝗈𝗎𝗋 𝗌𝖺 𝗌𝖾𝗌𝗌𝗂𝗈𝗇 𝗈𝗋𝖽𝗂𝗇𝖺𝗂𝗋𝖾. 𝖯𝗋𝖾́𝗌𝗂𝖽𝖾́ 𝗉𝖺𝗋 𝗅𝖾 𝖯𝗋𝖾́𝗌𝗂𝖽𝖾𝗇𝗍 𝖽𝗎 𝖢𝗈𝗇𝗌𝖾𝗂𝗅, 𝖣𝗋 𝖯𝖺𝗍𝗋𝗂𝖼𝖾 𝖠𝗅𝗒 𝖢𝖮𝖬𝖡𝖠𝖱𝖸, 𝖼𝖾𝗍𝗍𝖾 𝖺𝖼𝗍𝗂𝗏𝗂𝗍𝖾́ 𝗌𝗍𝖺𝗍𝗎𝗍𝖺𝗂𝗋𝖾 𝗌’𝖾𝗌𝗍 𝗍𝖾𝗇𝗎𝖾 𝖾𝗇 𝗉𝗋𝖾́𝗌𝖾𝗇𝖼𝖾 ...",
+      "url": "https://insp.bf/%f0%9d%90%82a-%f0%9d%90%83%f0%9d%90%84-%f0%9d%90%8b%f0%9d%90%88%f0%9d%90%8d%f0%9d%90%92p-2024/",
+      "category": "Actu_Evènement",
+      "image": "https://insp.bf/wp-content/uploads/2024/12/Participants-CA.jpg"
+    },
+    {
+      "id": "news-2",
+      "title": "𝐀G 𝐃𝐄 𝐋’𝐈𝐍𝐒P : 𝐔𝐍 𝐄𝐍𝐆𝐀𝐆𝐄𝐌𝐄𝐍𝐓 𝐑𝐄𝐍𝐎𝐔𝐕𝐄𝐋𝐄́ 𝐃𝐄𝐒 𝐏𝐑𝐄𝐌𝐈𝐄𝐑𝐒 𝐑𝐄𝐒𝐏𝐎𝐍𝐒𝐀𝐁𝐋𝐄𝐒.",
+      "excerpt": "𝖫’𝖨𝗇𝗌𝗍𝗂𝗍𝗎𝗍 𝖭𝖺𝗍𝗂𝗈𝗇𝖺𝗅 𝖽𝖾 𝖲𝖺𝗇𝗍𝖾́ 𝖯𝗎𝖻𝗅𝗂𝗊𝗎𝖾 (𝖨𝖭𝖲𝖯) 𝖺 𝗍𝖾𝗇𝗎, 𝖼𝖾 𝗃𝖾𝗎𝖽𝗂 𝟣𝟤 𝖽𝖾́𝖼𝖾𝗆𝖻𝗋𝖾 𝟤𝟢𝟤𝟦 𝖺̀ 𝖮𝗎𝖺𝗀𝖺𝖽𝗈𝗎𝗀𝗈𝗎, 𝗌𝗈𝗇 𝖠𝗌𝗌𝖾𝗆𝖻𝗅𝖾́𝖾 𝖦𝖾́𝗇𝖾́𝗋𝖺𝗅𝖾 𝖺𝗇𝗇𝗎𝖾𝗅𝗅𝖾 𝗌𝗈𝗎𝗌 𝗅𝖺 𝗉𝗋𝖾́𝗌𝗂𝖽𝖾𝗇𝖼𝖾 𝖽𝗎 𝖣𝗂𝗋𝖾𝖼𝗍𝖾𝗎𝗋 𝖦𝖾́𝗇𝖾́𝗋𝖺𝗅, 𝖣𝗋. 𝖲𝖾𝗒𝖽𝗈𝗎 𝖡𝖠𝖱𝖱𝖮. 𝖢𝖾 𝗋𝖾𝗇𝖽𝖾𝗓-𝗏𝗈𝗎𝗌 𝗌𝗍𝗋𝖺𝗍𝖾́𝗀𝗂𝗊𝗎𝖾 𝖺 𝗋𝖺𝗌𝗌𝖾𝗆𝖻𝗅𝖾́ 𝗅𝖾𝗌 𝖺𝖼𝗍𝖾𝗎𝗋𝗌 𝖽𝖾 𝗅’𝖨𝖭𝖲𝖯, 𝖽𝖺𝗇𝗌 𝗅𝖾 𝖻𝗎𝗍 ...",
+      "url": "https://insp.bf/%f0%9d%90%80g-%f0%9d%90%83%f0%9d%90%84-%f0%9d%90%8b%f0%9d%90%88%f0%9d%90%8d%f0%9d%90%92p/",
+      "category": "Actu_Evènement",
+      "image": "https://insp.bf/wp-content/uploads/2024/12/Remise-de-reconnaissance.jpg"
+    },
+    {
+      "id": "news-3",
+      "title": "𝐏𝐚𝐫𝐭𝐢𝐜𝐢𝐩𝐚𝐭𝐢𝐨𝐧 𝐝𝐞 𝐥’𝐈𝐍𝐒𝐏 𝐚̀ 𝐥𝐚 𝐫𝐞𝐧𝐜𝐨𝐧𝐭𝐫𝐞 𝐛𝐢-𝐚𝐧𝐧𝐮𝐞𝐥𝐥𝐞 𝐝𝐞 𝐆-𝐖𝐀𝐂 : 𝐆𝐞𝐫𝐦𝐚𝐧-𝐖𝐞𝐬𝐭 𝐀𝐟𝐫𝐢𝐜𝐚𝐧 𝐂𝐞𝐧𝐭𝐫𝐞 𝐟𝐨𝐫 𝐆𝐥𝐨𝐛𝐚𝐥 𝐇𝐞𝐚𝐥𝐭𝐡 𝐚𝐧𝐝 𝐏𝐚𝐧𝐝𝐞𝐦𝐢𝐜 𝐏𝐫𝐞𝐯𝐞𝐧𝐭𝐢𝐨𝐧 𝐚̀ 𝐀𝐜𝐜𝐫𝐚 𝐚𝐮 𝐆𝐡𝐚𝐧𝐚.",
+      "excerpt": "𝑳’𝑰𝙉𝑺𝙋 𝙖̀ 𝙩𝒓𝙖𝒗𝙚𝒓𝙨 𝙙𝒆𝙪𝒙 𝒅𝙚 𝙨𝒆𝙨 𝙨𝒕𝙧𝒖𝙘𝒕𝙪𝒓𝙚𝒔 𝒎𝙚́𝒕𝙞𝒆𝙧𝒔, 𝙡𝒆 𝑪𝙍𝑺𝙉 𝙚𝒕 𝒍’𝑶𝙉𝑺𝙋 𝙧𝒆𝙥𝒓𝙚́𝒔𝙚𝒏𝙩𝒆́𝙚𝒔 𝒑𝙖𝒓 𝒍𝙚𝒖𝙧s 𝘿𝒊𝙧𝒆𝙘𝒕𝙚𝒖𝙧s 𝙏𝒆𝙘𝒉𝙣𝒊𝙦𝒖𝙚s 𝙧𝒆𝙨𝒑𝙚𝒄𝙩𝒊𝙛s, 𝑫𝙧 𝘼𝒍𝙞 𝙎𝑰𝙀 𝙚𝒕 𝑫𝙧 𝙃𝒆𝙧𝒎𝙖𝒏 𝑩𝘼𝒁𝙄𝑬, 𝒑𝙖𝒓𝙩𝒊𝙘𝒊𝙥𝒆 𝒑𝙖𝒓𝙩 𝙖̀ 𝙡𝒂 𝒓𝙚𝒏𝙘𝒐𝙣𝒕𝙧𝒆 𝒃𝙞-𝙖𝒏𝙣𝒖𝙚𝒍𝙡𝒆 𝒅𝙚 𝙂-𝙒𝑨𝘾 : 𝙂𝒆𝙧𝒎𝙖𝒏-𝑾𝙚𝒔𝙩 𝘼𝒇𝙧𝒊𝙘𝒂𝙣 𝘾𝒆𝙣𝒕𝙧𝒆 𝒇𝙤𝒓 𝑮𝙡𝒐𝙗𝒂𝙡 𝙃𝒆𝙖𝒍𝙩𝒉 ...",
+      "url": "https://insp.bf/%f0%9d%90%8f%f0%9d%90%9a%f0%9d%90%ab%f0%9d%90%ad%f0%9d%90%a2%f0%9d%90%9c%f0%9d%90%a2%f0%9d%90%a9%f0%9d%90%9a%f0%9d%90%ad%f0%9d%90%a2%f0%9d%90%a8%f0%9d%90%a7-rencontre-g-wac/",
+      "category": "Actu_Evènement",
+      "image": "https://insp.bf/wp-content/uploads/2024/12/Dr-BAZIE-ET-Dr-SIE.jpg"
+    },
+    {
+      "id": "news-4",
+      "title": "BULLETIN NATIONAL DE SANTE PUBLIQUE",
+      "excerpt": "Bulletin National de Santé Publique (BSP)",
+      "url": "https://insp.bf/bulletin-national-de-sante-publique/",
+      "category": "Actu_Evènement",
+      "image": null
+    },
+    {
+      "id": "news-5",
+      "title": "NOEL 2023: Message DG-INSP",
+      "excerpt": "𝐌𝐄𝐒𝐒𝐀𝐆𝐄 𝐃𝐄 𝐌𝐎𝐍𝐒𝐈𝐄𝐔𝐑 𝐋𝐄 𝐃𝐈𝐑𝐄𝐂𝐓𝐄𝐔𝐑 𝐆𝐄́𝐍𝐄́𝐑𝐀𝐋 𝐃𝐄 𝐋’𝐈𝐍𝐒𝐏 𝐀̀ 𝐋’𝐎𝐂𝐂𝐀𝐒𝐈𝐎𝐍 𝐃𝐄 𝐋𝐀 𝐅𝐄̂𝐓𝐄 𝐃𝐄 𝐍𝐎𝐄̈𝐋. 𝐸𝑛 𝑐𝑒 𝑗𝑜𝑢𝑟 𝑏𝑒́𝑛𝑖 𝑑𝑒 𝐷𝑖𝑒𝑢, 𝑗𝑒 𝑣𝑜𝑢𝑑𝑟𝑎𝑖𝑠 𝑠𝑜𝑢ℎ𝑎𝑖𝑡𝑒𝑟 𝑢𝑛𝑒 𝑏𝑜𝑛𝑛𝑒 𝑓𝑒̂𝑡𝑒 𝑑𝑒 𝑁𝑜𝑒̈𝑙 𝑎̀ 𝑡𝑜𝑢𝑡 𝑙𝑒 𝑝𝑒𝑟𝑠𝑜𝑛𝑛𝑒𝑙 𝑑𝑒 𝑙’𝐼𝑛𝑠𝑡𝑖𝑡𝑢𝑡 𝑁𝑎𝑡𝑖𝑜𝑛𝑎𝑙 𝑑𝑒 𝑆𝑎𝑛𝑡𝑒́ 𝑃𝑢𝑏𝑙𝑖𝑞𝑢𝑒 𝑎𝑖𝑛𝑠𝑖 …",
+      "url": "https://insp.bf/noel-2023-message-dg-insp/",
+      "category": "Actu_Evènement",
+      "image": null
+    },
+    {
+      "id": "news-6",
+      "title": "INSP – IANPHI",
+      "excerpt": "INSP BURKINA ÉLU AU POSTE DE VICE PRÉSIDENT DU SECRÉTARIAT DE L’ASSOCIATION INTERNATIONALE DES INSP EN AFRIQUE Il s’est tenu du 4 au 6 décembre 2019 à Addis-Abeba, la réunion annuelle des instituts nationaux de santé publique à laquelle l’INSP …",
+      "url": "https://insp.bf/insp-ianphi/",
+      "category": "Actu_Evènement",
+      "image": null
+    },
+    {
+      "id": "news-7",
+      "title": "𝐔𝐑𝐆𝐄𝐍𝐂𝐄𝐒 𝐒𝐀𝐍𝐈𝐓𝐀𝐈𝐑𝐄𝐒 : 𝟏𝟎𝟎 𝐄𝐗𝐏𝐄𝐑𝐓𝐒 𝐅𝐎𝐑𝐌𝐄𝐒 𝐏𝐎𝐔𝐑 𝐀𝐒𝐒𝐔𝐑𝐄𝐑 𝐋𝐀 𝐆𝐄𝐒𝐓𝐈𝐎𝐍 𝐃𝐄𝐒 𝐔𝐑𝐆𝐄𝐍𝐂𝐄𝐒 𝐃𝐄 𝐒𝐀𝐍𝐓𝐄 𝐏𝐔𝐁𝐋𝐈𝐐𝐔𝐄 𝐀𝐔 𝐁F 𝐄𝐓 𝐏𝐀𝐑𝐓𝐎𝐔𝐓 𝐀𝐈𝐋𝐋𝐄𝐔𝐑𝐒.",
+      "excerpt": "𝑳𝒆 𝑩𝒖𝒓𝒌𝒊𝒏𝒂 𝑭𝒂𝒔𝒐 𝒆𝒔𝒕 𝒅𝒆́𝒔𝒐𝒓𝒎𝒂𝒊𝒔 𝒑𝒂𝒓𝒆́ 𝒂̀ 𝒇𝒂𝒊𝒓𝒆 𝒇𝒂𝒄𝒆 𝒂𝒖𝒙 𝒖𝒓𝒈𝒆𝒏𝒄𝒆𝒔 𝒅𝒆 𝒔𝒂𝒏𝒕𝒆́ 𝒑𝒖𝒃𝒍𝒊𝒒𝒖𝒆 𝒂𝒗𝒆𝒄 𝒍𝒂 𝒄𝒂𝒑𝒂𝒄𝒊𝒕𝒂𝒕𝒊𝒐𝒏 𝒅𝒆 100 𝑬𝒙𝒑𝒆𝒓𝒕𝒔 𝒏𝒂𝒕𝒊𝒐𝒏𝒂𝒖𝒙 𝒆𝒏 𝒈𝒆𝒔𝒕𝒊𝒐𝒏 𝒅𝒆𝒔 𝒖𝒓𝒈𝒆𝒏𝒄𝒆𝒔 𝒅𝒆 𝒔𝒂𝒏𝒕𝒆́ 𝒑𝒖𝒃𝒍𝒊𝒒𝒖𝒆 𝒒𝒖𝒊 𝒔𝒐𝒏𝒕 𝒑𝒓𝒆̂𝒕 𝒂̀ 𝒆̂𝒕𝒓𝒆 𝒅𝒆́𝒑𝒍𝒐𝒚𝒆́𝒔 𝒑𝒂𝒓𝒕𝒐𝒖𝒕 𝒐𝒖̀ 𝒍𝒆 𝒃𝒆𝒔𝒐𝒊𝒏 𝒔𝒆 𝒇𝒆𝒓𝒂 …",
+      "url": "https://insp.bf/%f0%9d%90%94%f0%9d%90%91%f0%9d%90%86%f0%9d%90%84%f0%9d%90%8d%f0%9d%90%82%f0%9d%90%84%f0%9d%90%92-%f0%9d%90%92%f0%9d%90%80%f0%9d%90%8d%f0%9d%90%88%f0%9d%90%93%f0%9d%90%80%f0%9d%90%88%f0%9d%90%91/",
+      "category": "Actu_Evènement",
+      "image": null
+    },
+    {
+      "id": "news-8",
+      "title": "INSP: M. KALIFA COULIBALY EST LE NOUVEAU COMPTABLE PRINCIPAL EN DENIERS ET VALEURS",
+      "excerpt": "La cérémonie officielle de passation de service entre les comptables principaux en deniers et valeurs (CPDV) de l’Institut National de Santé Publique (INSP) s’est déroulée le lundi 21 octobre 2024, dans les locaux de la Direction Générale de l’institution. M. …",
+      "url": "https://insp.bf/insp-m-kalifa-coulibaly-est-le-nouveau-comptable-principal-en-deniers-et-valeurs/",
+      "category": "Actu_Evènement",
+      "image": null
+    },
+    {
+      "id": "news-9",
+      "title": "VISITE DE TERRAIN DE L’UNITE DE RECHERCHE CLINIQUE DU CNRFP PAR LE DG DE L’INSP",
+      "excerpt": "𝑩𝒂𝒏𝒇𝒐𝒓𝒂, l𝒆 𝒔𝒂𝒎𝒆𝒅𝒊 05 𝒐𝒄𝒕𝒐𝒃𝒓𝒆 𝒅𝒆𝒓𝒏𝒊𝒆𝒓, 𝒍𝒆 𝑫𝒊𝒓𝒆𝒄𝒕𝒆𝒖𝒓 𝑮𝒆́𝒏𝒆́𝒓𝒂𝒍 𝒅𝒆 𝒍’𝑰𝒏𝒔𝒕𝒊𝒕𝒖𝒕 𝑵𝒂𝒕𝒊𝒐𝒏𝒂𝒍 𝒅𝒆 𝑺𝒂𝒏𝒕𝒆́ 𝑷𝒖𝒃𝒍𝒊𝒒𝒖𝒆 (𝑰𝑵𝑺𝑷), 𝑫𝒓. 𝑺𝒆𝒚𝒅𝒐𝒖 𝑩𝑨𝑹𝑹𝑶, 𝒂 𝒆𝒇𝒇𝒆𝒄𝒕𝒖𝒆́ 𝒖𝒏𝒆 𝒗𝒊𝒔𝒊𝒕𝒆 𝒅𝒆 𝒕𝒆𝒓𝒓𝒂𝒊𝒏 𝒂̀ 𝒍’𝒖𝒏𝒊𝒕𝒆́ 𝒅𝒆 𝒓𝒆𝒄𝒉𝒆𝒓𝒄𝒉𝒆 𝒄𝒍𝒊𝒏𝒊𝒒𝒖𝒆 𝒅𝒆 𝒍𝒂 𝒅𝒊𝒓𝒆𝒄𝒕𝒊𝒐𝒏 𝒕𝒆𝒄𝒉𝒏𝒊𝒒𝒖𝒆 𝒅𝒖 𝑪𝒆𝒏𝒕𝒓𝒆 𝑵𝒂𝒕𝒊𝒐𝒏𝒂𝒍 𝒅𝒆 𝑭𝒐𝒓𝒎𝒂𝒕𝒊𝒐𝒏 𝒆𝒕 …",
+      "url": "https://insp.bf/visite-de-terrain-de-lunite-de-recherche-clinique-du-cnrfp-par-le-dg-de-linsp/",
+      "category": "Actu_Evènement",
+      "image": null
+    },
+    {
+      "id": "news-10",
+      "title": "ONSP : DR BAZIE HERMAN EST LE NOUVEAU DIRECTEUR TECHNIQUE DE L’ONSP, UNE DES DIRECTIONS TECHNIQUES DE L’INSTITUT NATIONAL DE SANTÉ PUBLIQUE (L’INSP).",
+      "excerpt": "Nommé le 07 septembre dernier par le Ministre de la Santé et de l’hygiène publique, le nouveau Directeur Technique de l’Observatoire National de la Santé de la Population (ONSP) a pris officiellement service ce vendredi 04 octobre 2024 à Ouagadougou. …",
+      "url": "https://insp.bf/onsp-dr-bazie-herman-est-le-nouveau-directeur-technique-de-lonsp-une-des-directions-techniques-de-linstitut-national-de-sante-publique-linsp/",
+      "category": "Actu_Evènement",
+      "image": null
+    },
+    {
+      "id": "news-11",
+      "title": "ATELIER NATIONAL DE VALIDATION DU RAPPORT 2023 SUR L’ÉTAT DE SANTÉ DE LA POPULATION DU BURKINA FASO.",
+      "excerpt": "L’Observatoire national de la santé de la population (ONSP), une des directions techniques de l’INSP, en collaboration avec l’UNICEF, organise du 02 au 04 octobre 2024, un atelier national de validation du rapport 2023 sur l’état de santé de la …",
+      "url": "https://insp.bf/atelier-national-de-validation-du-rapport-2023-sur-letat-de-sante-de-la-population-du-burkina-faso/",
+      "category": "Actu_Evènement",
+      "image": null
+    },
+    {
+      "id": "news-12",
+      "title": "ATLAS DES INDICATEURS DE SANTE AU BURKINA FASO",
+      "excerpt": "CEREMONIE DE REMISE DE L’ATLAS DES INDICATEURS DE SANTE : UN OUTIL D’INFORMATION POUR LE RENFORCEMENT DU SYSTEME DE SANTE AU BURKINA FASO 𝑳𝒆 30 𝒔𝒆𝒑𝒕𝒆𝒎𝒃𝒓𝒆 2024, 𝒍𝒆 𝑫𝒊𝒓𝒆𝒄𝒕𝒆𝒖𝒓 𝑮𝒆́𝒏𝒆́𝒓𝒂𝒍 𝒅𝒆 𝒍’𝑰𝑵𝑺𝑷 𝒂 𝒓𝒆𝒄̧𝒖 𝒍𝒂 𝒓𝒆𝒑𝒓𝒆́𝒔𝒆𝒏𝒕𝒂𝒕𝒊𝒐𝒏 𝒅𝒖 𝑪𝒆𝒏𝒕𝒓𝒆 𝒑𝒐𝒖𝒓 𝒍𝒆 …",
+      "url": "https://insp.bf/atlas-des-indicateurs-de-sante-au-burkina-faso/",
+      "category": "Actu_Evènement",
+      "image": null
+    },
+    {
+      "id": "news-13",
+      "title": "Passation de Charge à la Direction Scientifique de l’INSP",
+      "excerpt": "Le Dr Bernard ILBOUDO Succède au Dr K. Paulin SOMDA Ce mercredi 18 septembre 2024, l’Institut National de Santé Publique (INSP) a organisé une cérémonie solennelle de passation de charge entre le Directeur Scientifique sortant, Dr K. Paulin SOMDA, et …",
+      "url": "https://insp.bf/passation-de-charge-a-la-direction-scientifique-de-linsp/",
+      "category": "Actu_Evènement",
+      "image": null
+    }
+  ]
+}

@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>INSP — Institut National de Santé Publique du Burkina Faso</title>
+<link rel="icon" href="https://insp.bf/wp-content/uploads/2020/07/cropped-logonew.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          teal: { 950:'#08251C', 900:'#0B3D2E', 800:'#0F4F3C', 700:'#0F6E4F', 600:'#158C63', 100:'#DCEFE6', 50:'#F1F8F4' },
+          gold: { 600:'#C4880A', 500:'#E3A008', 400:'#F2B93C', 100:'#FBEACB' },
+          sand: { 50:'#FAF7F0', 100:'#F3EEE1' },
+          alert:{ 700:'#B3341E', 100:'#F7E1DC' },
+          ink: { 900:'#14201B', 700:'#33413A', 500:'#5B6963' }
+        },
+        fontFamily: {
+          display: ['"Space Grotesk"','sans-serif'],
+          body: ['Inter','sans-serif'],
+          mono: ['"JetBrains Mono"','monospace']
+        }
+      }
+    }
+  }
+</script>
+<style>
+  body{ font-feature-settings:"ss01"; }
+  .prose-insp p{ margin-bottom:1rem; line-height:1.75; color:#33413A; }
+  .prose-insp ul{ list-style:disc; padding-left:1.5rem; margin-bottom:1rem; }
+  .prose-insp li{ margin-bottom:.4rem; line-height:1.7; }
+  .prose-insp strong{ color:#0B3D2E; }
+  .prose-insp a{ color:#0F6E4F; text-decoration:underline; text-underline-offset:2px; }
+  .prose-insp a:hover{ color:#C4880A; }
+  .prose-insp object{ width:100%; height:70vh; border:1px solid #DCEFE6; border-radius:.5rem; }
+  .prose-insp img{ border-radius:.5rem; margin:1rem 0; max-width:100%; height:auto; }
+  .nav-panel{ display:none; }
+  .nav-item.open .nav-panel{ display:block; }
+  @media (min-width:1024px){
+    .nav-panel{ display:none; position:absolute; top:100%; left:0; min-width:20rem; }
+    .nav-item:hover .nav-panel, .nav-item.open .nav-panel{ display:block; }
+  }
+  ::-webkit-scrollbar{ width:10px; }
+  ::-webkit-scrollbar-thumb{ background:#DCEFE6; border-radius:6px; }
+  @keyframes pulseline{ 0%{stroke-dashoffset:400;} 100%{stroke-dashoffset:0;} }
+  .pulse-path{ stroke-dasharray:400; animation:pulseline 3.5s ease-out forwards; }
+  @media (prefers-reduced-motion: reduce){ .pulse-path{ animation:none; stroke-dashoffset:0; } }
+  [x-cloak]{ display:none; }
+</style>
+</head>
+<body class="bg-sand-50 text-ink-900 font-body antialiased">
+
+<!-- Topbar -->
+<div class="hidden md:flex justify-between items-center text-xs bg-teal-950 text-teal-100 px-6 py-1.5 font-mono">
+  <div id="topbar-links" class="flex gap-4"></div>
+  <div id="topbar-contact" class="flex gap-4"></div>
+</div>
+
+<!-- Header / Main nav -->
+<header class="sticky top-0 z-40 bg-white/95 backdrop-blur border-b border-teal-100">
+  <div class="max-w-7xl mx-auto px-4 lg:px-6">
+    <div class="flex items-center justify-between h-16 lg:h-20">
+      <a href="#/accueil" class="flex items-center gap-3 shrink-0">
+        <img src="https://insp.bf/wp-content/uploads/2020/07/cropped-logonew.jpg" alt="Logo INSP" class="h-10 w-10 lg:h-12 lg:w-12 rounded-full object-cover ring-2 ring-teal-100">
+        <div class="leading-tight">
+          <p class="font-display font-bold text-teal-900 text-sm lg:text-base">INSP</p>
+          <p class="text-[10px] lg:text-xs text-ink-500 hidden sm:block">Burkina Faso</p>
+        </div>
+      </a>
+
+      <nav id="desktop-nav" class="hidden lg:flex items-center gap-1 font-display text-sm font-medium"></nav>
+
+      <div class="flex items-center gap-2">
+        <button id="search-toggle" aria-label="Rechercher" class="p-2 rounded-full hover:bg-teal-50 text-teal-800">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16z"/></svg>
+        </button>
+        <button id="mobile-toggle" aria-label="Menu" class="lg:hidden p-2 rounded-full hover:bg-teal-50 text-teal-800">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- search bar -->
+    <div id="search-bar" class="hidden pb-3">
+      <input id="search-input" type="text" placeholder="Rechercher une page, un rapport, une actualité…" class="w-full rounded-lg border border-teal-100 px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-teal-600">
+      <div id="search-results" class="mt-2 bg-white border border-teal-100 rounded-lg shadow-lg divide-y divide-teal-50 max-h-80 overflow-y-auto"></div>
+    </div>
+  </div>
+</header>
+
+<!-- Mobile off-canvas -->
+<div id="mobile-panel" class="fixed inset-0 z-50 hidden">
+  <div class="absolute inset-0 bg-ink-900/50" id="mobile-backdrop"></div>
+  <div class="absolute right-0 top-0 h-full w-80 max-w-[85%] bg-white shadow-xl overflow-y-auto">
+    <div class="flex items-center justify-between p-4 border-b border-teal-100">
+      <span class="font-display font-bold text-teal-900">Menu</span>
+      <button id="mobile-close" class="p-2 text-ink-700"><svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg></button>
+    </div>
+    <div id="mobile-nav" class="p-3 font-display text-sm"></div>
+    <div class="p-4 border-t border-teal-100 font-mono text-xs text-ink-500">
+      <p id="mobile-phone"></p>
+      <p id="mobile-email"></p>
+    </div>
+  </div>
+</div>
+
+<!-- App root -->
+<main id="app" class="min-h-[60vh]"></main>
+
+<!-- Footer -->
+<footer class="bg-teal-950 text-teal-100 mt-16">
+  <div class="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-4 gap-8">
+    <div>
+      <p class="font-display font-bold text-white text-lg mb-2">INSP</p>
+      <p class="text-sm text-teal-100/80">Institut National de Santé Publique du Burkina Faso — recherche, surveillance et santé publique au service des populations.</p>
+    </div>
+    <div>
+      <p class="font-display font-semibold text-white mb-3 text-sm uppercase tracking-wide">Navigation</p>
+      <ul id="footer-menu" class="space-y-2 text-sm text-teal-100/80"></ul>
+    </div>
+    <div>
+      <p class="font-display font-semibold text-white mb-3 text-sm uppercase tracking-wide">Liens utiles</p>
+      <ul id="footer-links" class="space-y-2 text-sm text-teal-100/80"></ul>
+    </div>
+    <div>
+      <p class="font-display font-semibold text-white mb-3 text-sm uppercase tracking-wide">Contact</p>
+      <p id="footer-phone" class="text-sm font-mono text-teal-100/80 mb-1"></p>
+      <p id="footer-email" class="text-sm font-mono text-teal-100/80"></p>
+      <a href="#/admin-link" id="admin-link" class="inline-block mt-4 text-xs font-mono text-teal-300/60 hover:text-gold-400">Espace admin</a>
+    </div>
+  </div>
+  <div class="border-t border-teal-900 py-4 text-center text-xs text-teal-100/50 font-mono">
+    © <span id="footer-year"></span> INSP Burkina Faso — Tous droits réservés
+  </div>
+</footer>
+
+<script>
+const ROUTE_ADMIN_REDIRECT = 'admin.html';
+
+let SITE = null;
+
+function esc(s){ return (s||'').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+
+function slugHref(slug){ return '#/' + slug; }
+
+async function loadData(){
+  const res = await fetch('siteData.json', { cache: 'no-store' });
+  const base = await res.json();
+  try{
+    const ov = JSON.parse(localStorage.getItem('insp_admin_overrides') || 'null');
+    if(ov){
+      if(ov.site) Object.assign(base.site, ov.site);
+      if(ov.news) base.news = ov.news;
+    }
+  }catch(e){ console.warn('override merge failed', e); }
+  return base;
+}
+
+function flattenMenu(items, out){
+  out = out || [];
+  items.forEach(it => { out.push(it); if(it.children) flattenMenu(it.children, out); });
+  return out;
+}
+
+function findMenuNode(items, slug){
+  for(const it of items){
+    if(it.slug === slug) return it;
+    if(it.children){ const r = findMenuNode(it.children, slug); if(r) return r; }
+  }
+  return null;
+}
+
+function findPath(items, slug, trail){
+  trail = trail || [];
+  for(const it of items){
+    const t = trail.concat([it]);
+    if(it.slug === slug) return t;
+    if(it.children){ const r = findPath(it.children, slug, t); if(r) return r; }
+  }
+  return null;
+}
+
+function youtubeEmbed(url){
+  const m = url.match(/(?:youtu\.be\/|v=)([\w-]{11})/);
+  return m ? `https://www.youtube.com/embed/${m[1]}` : null;
+}
+
+/* ---------- NAV RENDERING ---------- */
+
+function renderTopbar(){
+  const links = SITE.site.topLinks.map(l => `<a href="${esc(l.href)}" target="_blank" rel="noopener" class="hover:text-gold-400">${esc(l.label)}</a>`).join('');
+  document.getElementById('topbar-links').innerHTML = links;
+  document.getElementById('topbar-contact').innerHTML =
+    `<span>Tél : ${esc(SITE.site.phone)}</span><a href="mailto:${esc(SITE.site.email)}" class="hover:text-gold-400">${esc(SITE.site.email)}</a>`;
+  document.getElementById('mobile-phone').textContent = 'Tél : ' + SITE.site.phone;
+  document.getElementById('mobile-email').textContent = SITE.site.email;
+  document.getElementById('footer-phone').textContent = 'Tél : ' + SITE.site.phone;
+  document.getElementById('footer-email').textContent = SITE.site.email;
+  document.getElementById('footer-links').innerHTML = SITE.site.topLinks.map(l =>
+    `<li><a href="${esc(l.href)}" target="_blank" rel="noopener" class="hover:text-gold-400">${esc(l.label)}</a></li>`).join('');
+  document.getElementById('footer-year').textContent = new Date().getFullYear();
+}
+
+function menuLinkTarget(item){
+  if(item.type === 'home') return slugHref('accueil');
+  if(item.type === 'news-index') return slugHref('page-blog');
+  return slugHref(item.slug);
+}
+
+function renderDesktopNav(){
+  const topItems = SITE.menu.filter(m => m.type !== 'home');
+  const html = topItems.map(item => {
+    const hasChildren = item.children && item.children.length;
+    const panel = hasChildren ? renderDesktopPanel(item.children) : '';
+    return `
+      <div class="nav-item relative group px-1">
+        <a href="${menuLinkTarget(item)}" class="flex items-center gap-1 px-3 py-2 rounded-md text-ink-900 hover:text-teal-700 hover:bg-teal-50 transition">
+          ${esc(item.label)}
+          ${hasChildren ? '<svg class="w-3.5 h-3.5 opacity-60" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>' : ''}
+        </a>
+        ${panel}
+      </div>`;
+  }).join('');
+  document.getElementById('desktop-nav').innerHTML =
+    `<a href="#/accueil" class="px-3 py-2 rounded-md hover:text-teal-700 hover:bg-teal-50 transition">Accueil</a>` + html;
+}
+
+function renderDesktopPanel(children){
+  const cols = children.map(c => {
+    const grand = c.children ? `<ul class="mt-1.5 space-y-1 border-l border-teal-100 pl-3">${c.children.map(g =>
+        `<li><a href="${menuLinkTarget(g)}" class="block text-xs text-ink-500 hover:text-teal-700 py-0.5">${esc(g.label)}</a></li>`).join('')}</ul>` : '';
+    return `<div class="mb-3 last:mb-0">
+      <a href="${menuLinkTarget(c)}" class="block text-sm font-semibold text-teal-900 hover:text-gold-600 py-0.5">${esc(c.label)}</a>
+      ${grand}
+    </div>`;
+  }).join('');
+  return `<div class="nav-panel bg-white border border-teal-100 shadow-xl rounded-lg p-4 w-80 z-30">${cols}</div>`;
+}
+
+function renderMobileNav(){
+  function block(items){
+    return items.map(item => {
+      const hasChildren = item.children && item.children.length;
+      if(!hasChildren){
+        return `<a href="${menuLinkTarget(item)}" class="mobile-link block px-3 py-2.5 rounded-md hover:bg-teal-50 text-ink-900">${esc(item.label)}</a>`;
+      }
+      return `<details class="mb-1">
+        <summary class="cursor-pointer list-none px-3 py-2.5 rounded-md hover:bg-teal-50 text-ink-900 flex items-center justify-between">
+          ${esc(item.label)}
+          <svg class="w-4 h-4 opacity-50" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+        </summary>
+        <div class="pl-3 border-l border-teal-100 ml-4">${block(item.children)}</div>
+      </details>`;
+    }).join('');
+  }
+  document.getElementById('mobile-nav').innerHTML =
+    `<a href="#/accueil" class="mobile-link block px-3 py-2.5 rounded-md hover:bg-teal-50 text-ink-900 font-semibold">Accueil</a>` +
+    block(SITE.menu.filter(m => m.type !== 'home'));
+}
+
+function renderFooterMenu(){
+  const items = SITE.menu.filter(m => m.type !== 'home').slice(0,7);
+  document.getElementById('footer-menu').innerHTML = items.map(i =>
+    `<li><a href="${menuLinkTarget(i)}" class="hover:text-gold-400">${esc(i.label)}</a></li>`).join('');
+}
+
+/* ---------- PAGE VIEWS ---------- */
+
+function breadcrumbHtml(trail){
+  const parts = [`<a href="#/accueil" class="hover:text-teal-700">Accueil</a>`]
+    .concat(trail.map(t => `<a href="${menuLinkTarget(t)}" class="hover:text-teal-700">${esc(t.label)}</a>`));
+  return `<nav class="text-xs font-mono text-ink-500 flex flex-wrap gap-1.5 items-center mb-6">
+    ${parts.join('<span class="opacity-40">/</span>')}
+  </nav>`;
+}
+
+function documentsSection(docs){
+  if(!docs || !docs.length) return '';
+  const items = docs.map(d => `
+    <a href="${esc(d.url)}" target="_blank" rel="noopener" class="flex items-center gap-3 p-3 bg-white border border-teal-100 rounded-lg hover:border-teal-600 hover:shadow-sm transition group">
+      <span class="shrink-0 w-9 h-9 rounded bg-teal-50 text-teal-700 flex items-center justify-center font-mono text-[10px] font-bold group-hover:bg-teal-700 group-hover:text-white transition">PDF</span>
+      <span class="text-sm text-ink-900 font-medium truncate">${esc(d.label)}</span>
+    </a>`).join('');
+  return `<div class="mt-10">
+    <h3 class="font-display font-semibold text-teal-900 mb-3 text-sm uppercase tracking-wide">Documents à télécharger (${docs.length})</h3>
+    <div class="grid sm:grid-cols-2 gap-3">${items}</div>
+  </div>`;
+}
+
+function videosSection(videos){
+  if(!videos || !videos.length) return '';
+  const items = videos.map(v => {
+    const embed = youtubeEmbed(v);
+    if(embed){
+      return `<div class="aspect-video rounded-lg overflow-hidden border border-teal-100"><iframe src="${embed}" class="w-full h-full" allowfullscreen loading="lazy"></iframe></div>`;
+    }
+    return `<a href="${esc(v)}" target="_blank" rel="noopener" class="text-teal-700 underline text-sm">${esc(v)}</a>`;
+  }).join('');
+  return `<div class="mt-10"><h3 class="font-display font-semibold text-teal-900 mb-3 text-sm uppercase tracking-wide">Vidéos</h3><div class="grid sm:grid-cols-2 gap-4">${items}</div></div>`;
+}
+
+function renderPage(page){
+  const trail = findPath(SITE.menu, page.slug) || [];
+  const hero = page.heroImage ? `
+    <div class="w-full h-56 md:h-72 bg-teal-900 relative overflow-hidden">
+      <img src="${esc(page.heroImage)}" alt="" class="w-full h-full object-cover opacity-60">
+      <div class="absolute inset-0 bg-gradient-to-t from-teal-950/80 to-transparent"></div>
+    </div>` : '';
+  const dateStr = page.date ? new Date(page.date).toLocaleDateString('fr-FR', {year:'numeric', month:'long', day:'numeric'}) : '';
+
+  document.getElementById('app').innerHTML = `
+    ${hero}
+    <div class="max-w-4xl mx-auto px-4 lg:px-6 py-10">
+      ${breadcrumbHtml(trail)}
+      <h1 class="font-display font-bold text-3xl md:text-4xl text-teal-950 mb-2">${esc(page.title)}</h1>
+      ${dateStr ? `<p class="font-mono text-xs text-ink-500 mb-8">Publié le ${dateStr}</p>` : '<div class="mb-8"></div>'}
+      <div class="prose-insp max-w-none">${page.content}</div>
+      ${documentsSection(page.documents)}
+      ${videosSection(page.videos)}
+    </div>`;
+}
+
+function renderIndex(node){
+  const trail = findPath(SITE.menu, node.slug) || [];
+  const cards = (node.children || []).map(c => `
+    <a href="${menuLinkTarget(c)}" class="block bg-white border border-teal-100 rounded-xl p-5 hover:border-teal-600 hover:shadow-md transition group">
+      <span class="font-mono text-[10px] text-gold-600 uppercase tracking-wider">Rubrique</span>
+      <h3 class="font-display font-semibold text-teal-900 mt-1 group-hover:text-teal-700">${esc(c.label)}</h3>
+      ${c.children ? `<p class="text-xs text-ink-500 mt-2">${c.children.length} sous-rubrique(s)</p>` : ''}
+    </a>`).join('');
+  document.getElementById('app').innerHTML = `
+    <div class="max-w-5xl mx-auto px-4 lg:px-6 py-10">
+      ${breadcrumbHtml(trail)}
+      <h1 class="font-display font-bold text-3xl md:text-4xl text-teal-950 mb-8">${esc(node.label)}</h1>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">${cards}</div>
+    </div>`;
+}
+
+function newsCard(n){
+  return `
+    <a href="${esc(n.url)}" target="_blank" rel="noopener" class="flex flex-col bg-white border border-teal-100 rounded-xl overflow-hidden hover:shadow-md hover:border-teal-600 transition group">
+      ${n.image ? `<div class="h-40 bg-teal-50 overflow-hidden"><img src="${esc(n.image)}" alt="" class="w-full h-full object-cover group-hover:scale-105 transition duration-300"></div>` : ''}
+      <div class="p-4 flex-1 flex flex-col">
+        ${n.category ? `<span class="font-mono text-[10px] text-gold-600 uppercase tracking-wider mb-1">${esc(n.category)}</span>` : ''}
+        <h3 class="font-display font-semibold text-teal-900 text-sm leading-snug mb-2 group-hover:text-teal-700">${esc(n.title)}</h3>
+        <p class="text-xs text-ink-500 leading-relaxed line-clamp-3 flex-1">${esc(n.excerpt || '')}</p>
+        <span class="mt-3 text-xs font-mono text-teal-700 group-hover:text-gold-600">Lire la suite →</span>
+      </div>
+    </a>`;
+}
+
+function renderNewsIndex(){
+  const cards = SITE.news.map(newsCard).join('');
+  document.getElementById('app').innerHTML = `
+    <div class="max-w-6xl mx-auto px-4 lg:px-6 py-10">
+      ${breadcrumbHtml([{label:'Actu/Presse', slug:'category/presse'}, {label:'Evènements-News', slug:'page-blog'}])}
+      <h1 class="font-display font-bold text-3xl md:text-4xl text-teal-950 mb-8">Actualités &amp; Évènements</h1>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">${cards}</div>
+    </div>`;
+}
+
+function pulseDivider(){
+  return `<div class="flex justify-center py-2">
+    <svg width="220" height="28" viewBox="0 0 220 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path class="pulse-path" d="M0 14H70L82 2L96 26L108 14H220" stroke="#E3A008" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </div>`;
+}
+
+function renderHome(){
+  const pillars = SITE.menu.filter(m => m.type !== 'home');
+  const pillarCards = pillars.map(p => `
+    <a href="${menuLinkTarget(p)}" class="relative bg-white border border-teal-100 rounded-xl p-6 hover:border-teal-600 hover:shadow-lg transition group overflow-hidden">
+      <span class="font-mono text-[10px] text-gold-600 uppercase tracking-wider">Pôle</span>
+      <h3 class="font-display font-bold text-lg text-teal-950 mt-1 group-hover:text-teal-700">${esc(p.label)}</h3>
+      <p class="text-xs text-ink-500 mt-2">${(p.children||[]).length} rubrique(s)</p>
+      <svg class="absolute right-4 bottom-4 w-6 h-6 text-teal-100 group-hover:text-gold-400 transition" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+    </a>`).join('');
+
+  const latestNews = SITE.news.slice(0,3).map(newsCard).join('');
+  const announcement = SITE.site.announcement ? `
+    <div class="max-w-5xl mx-auto px-4 lg:px-6 -mt-8 relative z-10">
+      <div class="bg-gold-100 border border-gold-400 text-teal-950 rounded-xl px-5 py-4 shadow-md flex gap-3 items-start">
+        <span class="font-mono text-[10px] uppercase tracking-wider bg-gold-500 text-white px-2 py-1 rounded shrink-0">Annonce</span>
+        <p class="text-sm">${esc(SITE.site.announcement)}</p>
+      </div>
+    </div>` : '';
+
+  document.getElementById('app').innerHTML = `
+    <section class="relative bg-teal-950 text-white overflow-hidden">
+      <div class="absolute inset-0 opacity-20 bg-[url('https://insp.bf/wp-content/uploads/2020/07/cropped-logonew.jpg')] bg-cover bg-center"></div>
+      <div class="relative max-w-5xl mx-auto px-4 lg:px-6 py-20 md:py-28 text-center">
+        <span class="font-mono text-xs uppercase tracking-[0.2em] text-gold-400">Institut National de Santé Publique</span>
+        <h1 class="font-display font-bold text-3xl md:text-5xl mt-4 leading-tight">Recherche, veille sanitaire &amp; santé publique<br class="hidden md:block"> au service du Burkina Faso</h1>
+        <p class="mt-6 text-teal-100/80 max-w-2xl mx-auto">L'INSP met à la disposition des programmes, des communautés et des décideurs un instrument fiable qui stimule un système de santé performant, au service d'un développement social et sanitaire durable.</p>
+        <div class="mt-8 flex flex-wrap justify-center gap-3">
+          <a href="#/page-blog" class="px-5 py-2.5 rounded-full bg-gold-500 hover:bg-gold-600 text-teal-950 font-semibold text-sm transition">Actualités &amp; Évènements</a>
+          <a href="#/depot-institutionnel" class="px-5 py-2.5 rounded-full border border-teal-100/40 hover:border-gold-400 text-white font-semibold text-sm transition">Dépôt institutionnel</a>
+        </div>
+      </div>
+    </section>
+
+    ${announcement}
+
+    <section class="max-w-6xl mx-auto px-4 lg:px-6 py-14">
+      <h2 class="font-display font-bold text-2xl text-teal-950 mb-1">Nos pôles d'action</h2>
+      <p class="text-sm text-ink-500 mb-8">Sept pôles structurent l'action de l'Institut.</p>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">${pillarCards}</div>
+    </section>
+
+    ${pulseDivider()}
+
+    <section class="max-w-6xl mx-auto px-4 lg:px-6 py-14">
+      <div class="flex items-end justify-between mb-8">
+        <div>
+          <h2 class="font-display font-bold text-2xl text-teal-950 mb-1">Dernières actualités</h2>
+          <p class="text-sm text-ink-500">Les temps forts de l'Institut.</p>
+        </div>
+        <a href="#/page-blog" class="text-sm font-mono text-teal-700 hover:text-gold-600 whitespace-nowrap">Voir tout →</a>
+      </div>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">${latestNews}</div>
+    </section>
+  `;
+}
+
+function render404(){
+  document.getElementById('app').innerHTML = `
+    <div class="max-w-2xl mx-auto px-4 py-24 text-center">
+      <p class="font-mono text-gold-600 text-sm mb-2">ERREUR 404</p>
+      <h1 class="font-display font-bold text-3xl text-teal-950 mb-4">Page introuvable</h1>
+      <p class="text-ink-500 mb-6">La page demandée n'existe pas ou plus.</p>
+      <a href="#/accueil" class="px-5 py-2.5 rounded-full bg-teal-700 hover:bg-teal-800 text-white font-semibold text-sm transition">Retour à l'accueil</a>
+    </div>`;
+}
+
+/* ---------- ROUTER ---------- */
+
+function route(){
+  closeMobilePanel();
+  const raw = location.hash.replace(/^#\/?/, '');
+  const slug = decodeURIComponent(raw) || 'accueil';
+  window.scrollTo({top:0, behavior:'instant'});
+
+  if(slug === 'accueil') return renderHome();
+  if(slug === 'page-blog') return renderNewsIndex();
+  if(SITE.pages[slug]) return renderPage(SITE.pages[slug]);
+  const node = findMenuNode(SITE.menu, slug);
+  if(node && node.children && node.children.length) return renderIndex(node);
+  return render404();
+}
+window.addEventListener('hashchange', route);
+
+/* ---------- MOBILE MENU ---------- */
+
+function openMobilePanel(){ document.getElementById('mobile-panel').classList.remove('hidden'); document.body.style.overflow='hidden'; }
+function closeMobilePanel(){ document.getElementById('mobile-panel').classList.add('hidden'); document.body.style.overflow=''; }
+document.getElementById('mobile-toggle').addEventListener('click', openMobilePanel);
+document.getElementById('mobile-close').addEventListener('click', closeMobilePanel);
+document.getElementById('mobile-backdrop').addEventListener('click', closeMobilePanel);
+
+/* ---------- SEARCH ---------- */
+
+document.getElementById('search-toggle').addEventListener('click', () => {
+  const bar = document.getElementById('search-bar');
+  bar.classList.toggle('hidden');
+  if(!bar.classList.contains('hidden')) document.getElementById('search-input').focus();
+});
+
+document.getElementById('search-input').addEventListener('input', (e) => {
+  const q = e.target.value.trim().toLowerCase();
+  const results = document.getElementById('search-results');
+  if(q.length < 2){ results.innerHTML=''; return; }
+  const pageMatches = Object.values(SITE.pages).filter(p => p.title.toLowerCase().includes(q)).slice(0,6);
+  const newsMatches = SITE.news.filter(n => n.title.toLowerCase().includes(q)).slice(0,4);
+  const rows = [
+    ...pageMatches.map(p => `<a href="${slugHref(p.slug)}" class="block px-4 py-2.5 hover:bg-teal-50 text-sm text-ink-900">${esc(p.title)}</a>`),
+    ...newsMatches.map(n => `<a href="${esc(n.url)}" target="_blank" rel="noopener" class="block px-4 py-2.5 hover:bg-teal-50 text-sm text-ink-900">${esc(n.title)} <span class="text-xs text-gold-600 font-mono">(actualité)</span></a>`)
+  ];
+  results.innerHTML = rows.length ? rows.join('') : `<p class="px-4 py-3 text-sm text-ink-500">Aucun résultat.</p>`;
+});
+
+/* ---------- INIT ---------- */
+
+(async function init(){
+  SITE = await loadData();
+  renderTopbar();
+  renderDesktopNav();
+  renderMobileNav();
+  renderFooterMenu();
+  route();
+})();
+</script>
+</body>
+</html>
